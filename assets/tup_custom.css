@@ -1,3 +1,4 @@
+/* Product title and ref */
 .product-title-and-ref {
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,7 @@
   font-size: 11px;
   color: #a8a8a8;
 }
-
+/* Block padding */
 .product__block.product__block--title {
   margin-top: 5px;
 }
@@ -25,4 +26,9 @@
 }
 .product__block.product__block--price {
   margin: 30px 0;
+}
+
+/* Icon with text */
+.icon-with-text__item .inline-richtext {
+  font-size: 15px;
 }
