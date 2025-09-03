@@ -361,9 +361,16 @@
             </span>
             {%- render 'loading-spinner' -%}
           </button>
-          Payment info
-          <div>{%- render 'product-payment-info', block: block -%}</div>
-          
+          {% comment %} Add payment icons {% endcomment %}
+          <div class="product_payment-icons">
+            <ul class="list flex flex-wrap" role="list">
+              {%- for type in shop.enabled_payment_types -%}
+                <li class="flex items-center">
+                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>          
         </div>
         {% comment %} Change structure END {% endcomment %}
         {%- if show_dynamic_checkout -%}

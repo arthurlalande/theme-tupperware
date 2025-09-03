@@ -37,14 +37,26 @@
 }
 
 /* Buy buttons */
+@media (width <= 768px) {
+  .product-form__buttons {
+    flex-direction: column;
+  }
+  .product-form__buttons-wrapper {
+    width: 100%;
+  }
+}
 .product-form__buttons-wrapper {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
 }
 
 .product-form__buttons-wrapper .product-form__submit {
   width: 100%; /* Et cette ligne */
+}
+
+.product_payment-icons ul.list {
+  gap: 4px;
 }
