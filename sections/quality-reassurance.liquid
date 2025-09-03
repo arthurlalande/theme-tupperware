@@ -1,0 +1,64 @@
+<div class="reassurance-quality__container">
+    <div class="reassurance-quality__header">
+        <h2 class="reassurance-quality__title">{{ section.settings.title }}</h2>
+    </div>
+    <div class="reassurance-quality__content">
+        {% for i in (1..3) %}
+        <div class="reassurance-quality__content-item">
+            <div class="reassurance-quality__content-item-icon"></div>
+            <div class="reassurance-quality__content-item-text">{{ section.settings.title }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Quality Reassurance",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre"
+    },
+    {
+      "type": "color",
+      "id": "item_background_color",
+      "label": "Couleur de fond de l'item"
+    },
+    {
+      "type": "color",
+      "id": "item_text_color",
+      "label": "Couleur de texte de l'item"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icône"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texte"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quality Reassurance"
+    }
+  ]
+}
+{% endschema %}
