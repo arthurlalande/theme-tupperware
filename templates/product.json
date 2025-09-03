@@ -341,7 +341,7 @@
           "type": "item",
           "settings": {
             "icon": "shopify://shop_images/placeholder.svg",
-            "text": "Item 1"
+            "text": "Produits sans BPA"
           }
         },
         "item_8dCMNV": {
@@ -351,7 +351,7 @@
             "text": "Item 2"
           }
         },
-        "item_4GJTDP": {
+        "item_GttfJ7": {
           "type": "item",
           "settings": {
             "icon": "shopify://shop_images/placeholder.svg",
@@ -362,45 +362,14 @@
       "block_order": [
         "item_AgWWrQ",
         "item_8dCMNV",
-        "item_4GJTDP"
+        "item_GttfJ7"
       ],
       "name": "Quality Reassurance",
       "settings": {
-        "background_color": "#a3c8e1",
-        "title": "Une qualité sans compromis",
+        "background_color": "#e0f1fb",
+        "title": "<p>Une <strong>qualité</strong> sans compromis</p>",
         "item_background_color": "#ffffff",
         "item_text_color": "#000000"
-      }
-    },
-    "rich_text_J6yniM": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_gpGJxF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Une <strong>qualité </strong>sans compromis",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_gpGJxF"
-      ],
-      "name": "t:sections.rich-text.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-bfd8eadc-4aa4-4055-9cdf-3868862dee2d",
-        "use_color_scheme_in_container": false,
-        "content_spacing": "standard",
-        "content_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     },
     "slideshow_JkYeAd": {
@@ -1101,7 +1070,6 @@
     "breadcrumbs",
     "main",
     "quality_reassurance_EbyDKx",
-    "rich_text_J6yniM",
     "slideshow_JkYeAd",
     "image_with_text_AfJxyk",
     "image_with_text_Yppw69",
