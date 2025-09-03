@@ -8,7 +8,7 @@
             {% if block.settings.icon != blank %}
                 {{ block.settings.icon | image_url: width: 90 | image_tag: class: 'reassurance-quality__content-item-icon' }}
             {% else %}
-                {{ 'image' | placeholder_svg_tag: 'reassurance-quality__content-item-icon' }}
+                {{ 'product-1' | placeholder_svg_tag: 'reassurance-quality__content-item-icon' }}
             {% endif %}
             <div class="reassurance-quality__content-item-text">{{ block.settings.text }}</div>
         </div>
