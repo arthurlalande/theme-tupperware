@@ -16,3 +16,13 @@
   font-size: 11px;
   color: #a8a8a8;
 }
+
+.product__block.product__block--title {
+  margin-top: 5px;
+}
+.product__block.product__block--text.rte {
+  margin-top: 0;
+}
+.product__block.product__block--price {
+  margin-bottom: 30px;
+}
