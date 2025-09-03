@@ -340,21 +340,22 @@
         "item_AgWWrQ": {
           "type": "item",
           "settings": {
-            "icon": "shopify://shop_images/placeholder.svg",
-            "text": "Produits sans BPA"
+            "icon": "{{ product.metafields.custom.icone_1.value }}",
+            "text": "{{ product.metafields.custom.text_icone_1.value }}"
           }
         },
         "item_8dCMNV": {
           "type": "item",
           "settings": {
-            "text": "Item 2"
+            "icon": "{{ product.metafields.custom.icone_2.value }}",
+            "text": "{{ product.metafields.custom.text_icone_2.value }}"
           }
         },
         "item_GttfJ7": {
           "type": "item",
           "settings": {
-            "icon": "shopify://shop_images/placeholder.svg",
-            "text": "Item 3"
+            "icon": "{{ product.metafields.custom.icone_3.value }}",
+            "text": "{{ product.metafields.custom.text_icone_3.value }}"
           }
         }
       },
@@ -383,13 +384,13 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "subheading": "",
-            "title": "<strong>Banner Title</strong>",
+            "title": "<strong>Banner title</strong>{{ product.metafields.custom.banner_title.value }}",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h3",
-            "description": "<p>Banner Text</p>",
+            "description": "<p>Banner Text{{ product.metafields.custom.banner_text | metafield_tag }}</p>",
             "description_size": "text-base",
             "button_label": "",
             "button_link": "",
