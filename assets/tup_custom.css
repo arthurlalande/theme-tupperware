@@ -35,3 +35,16 @@
 .icon-with-text__item .inline-richtext {
   font-size: 15px;
 }
+
+/* Buy buttons */
+.product-form__buttons-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-form__buttons-wrapper .product-form__submit {
+  width: 100%; /* Et cette ligne */
+}
