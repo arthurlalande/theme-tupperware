@@ -20,6 +20,10 @@
           <div class="{{ block_classes }}">
             {% render block %}
           </div>
+        {%- when 'form_reassurance' -%}
+          <div class="{{ block_classes }}">
+            {% render 'product-form-reassurance', block: block %}
+          </div>
         {%- when 'category-label' -%}
             {% render 'category-label', block: block %}
         {%- when 'divider' -%}
