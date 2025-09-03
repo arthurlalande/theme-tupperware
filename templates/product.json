@@ -130,6 +130,21 @@
             "show_below_product_media": false
           }
         },
+        "form_reassurance_R9wXUV": {
+          "type": "form_reassurance",
+          "settings": {
+            "background_color": "",
+            "image-1": "shopify://shop_images/placeholder.svg",
+            "heading-1": "Titre 1",
+            "text-1": "Texte 1",
+            "image-2": "shopify://shop_images/placeholder.svg",
+            "heading-2": "Titre 2",
+            "text-2": "Texte 2",
+            "image-3": "shopify://shop_images/placeholder.svg",
+            "heading-3": "Titre 3",
+            "text-3": "Texte 3"
+          }
+        },
         "sticky_atc_bar_p84knK": {
           "type": "sticky-atc-bar",
           "settings": {
@@ -294,6 +309,7 @@
         "text_pMniWm",
         "buy_buttons",
         "payment_info",
+        "form_reassurance_R9wXUV",
         "sticky_atc_bar_p84knK",
         "collapsible_tab_DYt7En",
         "collapsible_tab_8B6AwL",
