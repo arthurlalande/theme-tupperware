@@ -334,6 +334,44 @@
         "padding_bottom": 80
       }
     },
+    "quality_reassurance_EbyDKx": {
+      "type": "quality-reassurance",
+      "blocks": {
+        "item_AgWWrQ": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/placeholder.svg",
+            "text": "Item 1"
+          }
+        },
+        "item_8dCMNV": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/placeholder.svg",
+            "text": "Item 2"
+          }
+        },
+        "item_4GJTDP": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/placeholder.svg",
+            "text": "Item 3"
+          }
+        }
+      },
+      "block_order": [
+        "item_AgWWrQ",
+        "item_8dCMNV",
+        "item_4GJTDP"
+      ],
+      "name": "Quality Reassurance",
+      "settings": {
+        "background_color": "#a3c8e1",
+        "title": "Une qualité sans compromis",
+        "item_background_color": "#ffffff",
+        "item_text_color": "#000000"
+      }
+    },
     "rich_text_J6yniM": {
       "type": "rich-text",
       "blocks": {
@@ -1062,6 +1100,7 @@
   "order": [
     "breadcrumbs",
     "main",
+    "quality_reassurance_EbyDKx",
     "rich_text_J6yniM",
     "slideshow_JkYeAd",
     "image_with_text_AfJxyk",
