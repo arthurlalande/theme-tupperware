@@ -27,6 +27,9 @@
 .product__block.product__block--price {
   margin: 30px 0;
 }
+.product__block.product__block--form_reassurance {
+  margin: 0;
+}
 
 /* Icon with text */
 .icon-with-text__item .inline-richtext {

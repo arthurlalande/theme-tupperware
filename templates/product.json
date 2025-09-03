@@ -133,16 +133,16 @@
         "form_reassurance_R9wXUV": {
           "type": "form_reassurance",
           "settings": {
-            "background_color": "",
+            "background_color": "#f3f9fd",
             "image-1": "shopify://shop_images/placeholder.svg",
-            "heading-1": "Titre 1",
-            "text-1": "Texte 1",
+            "heading-1": "Lorem ipsum dolor sit amet",
+            "text-1": "Lorem ipsum dolor",
             "image-2": "shopify://shop_images/placeholder.svg",
-            "heading-2": "Titre 2",
-            "text-2": "Texte 2",
+            "heading-2": "Lorem ipsum dolor sit amet",
+            "text-2": "Lorem ipsum dolor",
             "image-3": "shopify://shop_images/placeholder.svg",
-            "heading-3": "Titre 3",
-            "text-3": "Texte 3"
+            "heading-3": "Lorem ipsum dolor sit amet",
+            "text-3": "Lorem ipsum dolor"
           }
         },
         "sticky_atc_bar_p84knK": {
