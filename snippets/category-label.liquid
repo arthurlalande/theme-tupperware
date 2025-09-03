@@ -1,0 +1,21 @@
+<div class="category-label">
+    <div class="category-label__label" style="--background-color: {{ block.settings.label_background_color }}; --text-color: {{ block.settings.label_text_color }};">{{ block.settings.label_main_category }}</div>
+    <div class="category-label__label" style="--background-color: {{ block.settings.label_background_color }}; --text-color: {{ block.settings.label_text_color }};">{{ block.settings.label_sub_category }}</div>
+</div>
+
+{% stylesheet %}
+  .category-label {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .category-label__label {
+    padding: 6px;
+    border-radius: 999px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+{% endstylesheet %}
