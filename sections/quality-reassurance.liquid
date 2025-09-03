@@ -1,11 +1,15 @@
 <div class="reassurance-quality__container" style="--background-color: {{ section.settings.background_color }}">
     <div class="reassurance-quality__header">
-        <h2 class="reassurance-quality__title">{{ section.settings.title }}</h2>
+        <div class="reassurance-quality__title">{{ section.settings.title }}</div>
     </div>
     <div class="reassurance-quality__content">
         {% for block in section.blocks %}
         <div class="reassurance-quality__content-item" style="--background-color: {{ section.settings.item_background_color }}">
-            {{ block.settings.icon | image_url: width: 90 | image_tag: class: 'reassurance-quality__content-item-icon' }}
+            {% if block.settings.icon != blank %}
+                {{ block.settings.icon | image_url: width: 90 | image_tag: class: 'reassurance-quality__content-item-icon' }}
+            {% else %}
+                {{ 'image' | placeholder_svg_tag: 'reassurance-quality__content-item-icon' }}
+            {% endif %}
             <div class="reassurance-quality__content-item-text">{{ block.settings.text }}</div>
         </div>
         {% endfor %}
@@ -22,12 +26,17 @@
     }
     .reassurance-quality__header {
         align-self: start;
+        font-size: 36px;
+    }
+    .reassurance-quality__header p {
+        margin: 0 auto;
     }
     .reassurance-quality__content {
         width: 100%;
         max-width: 800px;
         display: flex;
         gap: 10px;
+        container-type: inline-size;
     }
     .reassurance-quality__content-item {
         padding: 12px;
@@ -39,10 +48,32 @@
         gap: 8px;
         border-radius: 6px;
         flex: 1 1 0;
+        text-align: center;
     }
     .reassurance-quality__content-item-icon {
         width: 45px;
         height: 45px;
+    }
+    @media (width < 1100px) {
+        .reassurance-quality__header {
+            font-size: 28px;
+        }
+    }
+    @media (width < 768px) {
+        .reassurance-quality__container {
+            flex-direction: column;
+            padding: 30px 16px;
+            gap:30px;
+        }
+        .reassurance-quality__header {
+            font-size: 22px;
+        }
+        .reassurance-quality__content {
+            overflow-x: scroll;
+        }
+        .reassurance-quality__content-item {
+            min-width: 160px;
+        }
     }
 {% endstylesheet %}
 
