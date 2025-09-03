@@ -1,0 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "fr"
+  },
+  "sections": {
+    "scrolling_gallery_image_wJyLJr": {
+      "settings": {
+        "button_label": "@tupperware_fr",
+        "button_link": "https://www.instagram.com/tupperware_fr"
+      },
+      "blocks": {}
+    }
+  }
+}

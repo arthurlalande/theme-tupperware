@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "multicolumn_icon_rTKNUF": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_PnJ3NJ": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<strong>Service client</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Lun-Ven<br/>8h30-12h30 / 14h-17h30</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_69fN8n": {
+          "type": "column",
+          "settings": {
+            "icon": "paperplane",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<strong>Contactez-nous</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Adresse e-mail<br/>customer.service@newtweu.com</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_ngN6XL": {
+          "type": "column",
+          "settings": {
+            "icon": "map-pin",
+            "max_width": 32,
+            "max_width_mb": 32,
+            "title": "<strong>Tupperware France</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>104 av Albert 1er, <br/>92500 Rueil Malmaison, France</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_PnJ3NJ",
+        "column_69fN8n",
+        "column_ngN6XL"
+      ],
+      "custom_css": [
+        ".rich-text__text {--text-margin-top: 0.4rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "center",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "content_alignment": "center",
+        "image_position": "left",
+        "icon_color": "#13524f",
+        "columns_desktop": 3,
+        "column_gap": "large",
+        "row_gap": "none",
+        "show_divider_col": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_text_cg3BQ9": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "heading": "",
+            "image": "shopify://shop_images/Logo_tupperware_white.svg",
+            "image_width": 200,
+            "text": "<p>Tupperware France - Distributeur officiel des produits Tupperware en France, Allemagne, Italie, Belgique et Pologne</p>",
+            "button_label": "Découvrir",
+            "button_link": "shopify://collections/tupperware",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_DEKGYP": {
+          "type": "menu",
+          "settings": {
+            "block_width": 15,
+            "heading": "Collections",
+            "menu": "main-footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_4eCrBB": {
+          "type": "menu",
+          "settings": {
+            "block_width": 15,
+            "heading": "Infos",
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "newsletter_3qCrWc": {
+          "type": "newsletter",
+          "settings": {
+            "block_width": 45,
+            "heading": "S'inscrire à la Newsletter",
+            "heading_size": "h3",
+            "newsletter_description": "<p>Inscrivez-vous à notre newsletter pour rester informé sur nos produits et services.</p>",
+            "newsletter_term": "",
+            "newsletter_text_alignment": "left",
+            "form_width": 465,
+            "order_first": false
+          }
+        }
+      },
+      "block_order": [
+        "image_text_cg3BQ9",
+        "menu_DEKGYP",
+        "menu_4eCrBB",
+        "newsletter_3qCrWc"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "footer_bottom_menu": "",
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "mobile_sticky_bar_aYhgJK": {
+      "type": "mobile-sticky-bar",
+      "blocks": {
+        "home_AP8mmy": {
+          "type": "home",
+          "settings": {
+            "text": "Accueil"
+          }
+        },
+        "cart_gnnwxQ": {
+          "type": "cart",
+          "settings": {
+            "text": "Panier"
+          }
+        },
+        "products_eYYkE8": {
+          "type": "products",
+          "settings": {
+            "text": "Produits",
+            "collection": ""
+          }
+        },
+        "link_mJ6QMc": {
+          "type": "link",
+          "settings": {
+            "text": "À propos",
+            "url": "",
+            "icon": "map-pin"
+          }
+        }
+      },
+      "block_order": [
+        "home_AP8mmy",
+        "cart_gnnwxQ",
+        "products_eYYkE8",
+        "link_mJ6QMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_bar": true,
+        "show_text": true
+      }
+    }
+  },
+  "order": [
+    "multicolumn_icon_rTKNUF",
+    "footer",
+    "mobile_sticky_bar_aYhgJK"
+  ]
+}

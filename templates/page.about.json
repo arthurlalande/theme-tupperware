@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_DgnWDV": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_3FrkpM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_MEEHjQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "À propos de Tupperware"
+          }
+        },
+        "heading_W8mPfG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notre Histoire",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "button_7kKN4i": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir",
+            "button_link": "shopify://collections/all",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MEEHjQ",
+        "heading_W8mPfG",
+        "button_7kKN4i"
+      ],
+      "custom_css": [
+        ".rich-text {max-width: 52rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/vintage-wonderlier-bowl-2203-2113.jpg",
+        "desktop_height": "extra-small",
+        "overlay_opacity": 10,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "top-left",
+        "content_alignment": "left",
+        "mobile_height": "adapt",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": true
+      }
+    },
+    "image_with_text_eUKGwj": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_t37PND": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Notre Héritage"
+          }
+        },
+        "heading_yrtiRH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une idée fraîche <strong>depuis 1946</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_DycqGr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce qui a commencé avec un simple contenant révolutionnaire est devenu un symbole mondial d’ingéniosité et de durabilité. </p><p>Imaginé par Earl Tupper dans l’Amérique d’après-guerre, notre célèbre joint hermétique a transformé la manière de conserver les aliments. Depuis, nous n’avons jamais cessé d’innover. </p><p>Des placards de cuisine aux pique-niques du monde entier, Tupperware continue d’inspirer des façons plus intelligentes de cuisiner, de s’organiser et de prendre soin – de nous-mêmes comme de la planète.</p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_t37PND",
+        "heading_yrtiRH",
+        "text_DycqGr"
+      ],
+      "custom_css": [
+        ".image-with-text__content {max-width: 52rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Web_1920_32.png",
+        "image_position": "right",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "testimonials_rcNmB8": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ygGQdx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "text": "<p>D'une cuisine à l'autre,<strong>Tupperware nous rassemble.</strong></p>",
+            "author": "",
+            "bio": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ygGQdx"
+      ],
+      "settings": {
+        "container": "full",
+        "color_scheme": "scheme-3",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_scheme": "scheme-3",
+        "card_image_ratio": "adapt",
+        "layout": "focused",
+        "card_text_size": "h1",
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_DABcqM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_YWP8cE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Durabilité"
+          }
+        },
+        "heading_gfXJMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Achetez <strong>une fois</strong>. Utilisez <strong>à vie</strong>.",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_6MFdFa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos produits sont conçus pour durer. Nous ne croyons pas aux solutions à usage unique. Au lieu de cela, nous offrons <strong>des alternatives durables, réutilisables et recyclables </strong>qui réduisent le gaspillage alimentaire et minimisent l'impact environnemental.</p><p>✔️ Conçus pour une longue durée de vie<br/>✔️ Fabriqués avec des matériaux durables<br/>✔️ Soutient un mode de vie sans déchets</p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YWP8cE",
+        "heading_gfXJMX",
+        "text_6MFdFa"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Web_1920_35.png",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "recently_viewed_products_myaaVA": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Produits récemment consultés",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_DgnWDV",
+    "main",
+    "image_with_text_overlay_3FrkpM",
+    "image_with_text_eUKGwj",
+    "testimonials_rcNmB8",
+    "image_with_text_DABcqM",
+    "recently_viewed_products_myaaVA"
+  ]
+}

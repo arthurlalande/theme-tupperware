@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_gDhW4i": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NadJYa": {
+          "type": "heading",
+          "settings": {
+            "heading": "📍<strong>Connectez-vous</strong> avec Tupperware",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_HkzD6k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trouvez un hôte Tupperware près de chez vous et soyez invité à une fête où vous pourrez découvrir nos best-sellers, poser des questions et profiter du moment.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NadJYa",
+        "text_HkzD6k"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/Web_1920_36_da2811c5-d3bc-4d5e-9aae-45788763576e.jpg",
+        "desktop_height": "extra-small",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_rf9xcf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_idp4rP": {
+          "type": "heading",
+          "settings": {
+            "heading": "📍 <strong>Connectez-vous</strong> avec Tupperware",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_YUkYwP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trouvez un hôte Tupperware près de chez vous et participez à une démonstration conviviale pour découvrir nos best-sellers, poser toutes vos questions et passer un bon moment.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_idp4rP",
+        "text_YUkYwP"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_PrrYi3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<div style=\"padding-left: 5%; padding-right: 5%;\">\n  <div id=\"mapwidget-container\" style=\"position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;\">\n    <!-- L'iframe sera injectée ici dynamiquement -->\n  </div>\n</div>\n\n<script>\n  // On récupère la langue depuis l'URL\n  var pathLang = window.location.pathname.split('/')[1].toLowerCase();\n\n  // Définir le lien de base\n  var baseLink = \"https://tw.sellingathome.com/34978610-2e86-4d8d-9471-ae15f60cb2d2/mapwidget\";\n\n  // Définir le suffixe langue selon l'URL\n  var langSuffix = \"\";\n  switch (pathLang) {\n    case \"fr\":\n      langSuffix = \"/fr\";\n      break;\n    case \"de\":\n      langSuffix = \"/de\";\n      break;\n    case \"it\":\n      langSuffix = \"/it\";\n      break;\n    case \"nl\":\n      langSuffix = \"/nl\";\n      break;\n    default:\n      langSuffix = \"/en\"; // Par défaut anglais si pas reconnu\n  }\n\n  var finalUrl = baseLink + langSuffix;\n\n  // Créer dynamiquement l'iframe\n  var iframe = document.createElement('iframe');\n  iframe.src = finalUrl;\n  iframe.style.position = \"absolute\";\n  iframe.style.top = \"0\";\n  iframe.style.left = \"0\";\n  iframe.style.width = \"100%\";\n  iframe.style.height = \"100%\";\n  iframe.style.border = \"0\";\n  iframe.style.borderRadius = \"10px\";\n  iframe.allowFullscreen = true;\n  iframe.loading = \"lazy\";\n\n  document.getElementById('mapwidget-container').appendChild(iframe);\n</script>",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "testimonials_rcNmB8": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ygGQdx": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "text": "<p><strong>Ludique, simple, humain.</strong></p>",
+            "author": "",
+            "bio": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ygGQdx"
+      ],
+      "settings": {
+        "container": "full",
+        "color_scheme": "scheme-3",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_scheme": "scheme-3",
+        "card_image_ratio": "adapt",
+        "layout": "focused",
+        "card_text_size": "h1",
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_DABcqM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_YWP8cE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Assister à une fête"
+          }
+        },
+        "heading_gfXJMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comment <strong>ça marche</strong> ?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_6MFdFa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vivez l’expérience Tupperware chez un hôte près de chez vous : découvrez nos produits en action, recevez des conseils pratiques dans une ambiance conviviale.<br/><br/>✔ Trouvez un hôte local</p><p>✔ Choisissez une date et invitez vos amis</p><p>✔ Découvrez nos meilleurs produits</p><p>✔ Profitez d'offres et de cadeaux exclusifs</p>",
+            "subtext_color": true
+          }
+        },
+        "button_KtQnXr": {
+          "type": "button",
+          "settings": {
+            "button_label": "En savoir plus",
+            "button_link": "https://tw.sellingathome.com/34978610-2e86-4d8d-9471-ae15f60cb2d2/candidacies",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YWP8cE",
+        "heading_gfXJMX",
+        "text_6MFdFa",
+        "button_KtQnXr"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Web_1920_38.jpg",
+        "image_position": "left",
+        "image_width": 60,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "image_with_text_Bq8hY7": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_YLCWrA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Rejoignez-nous"
+          }
+        },
+        "heading_qQJrkh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Je veux devenir <strong>hôte Tupperware</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_T8h3TQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rejoignez une communauté de passionnés qui partagent, progressent et vivent de leur activité. Que vous cherchiez un complément de revenu ou une carrière à plein temps, Tupperware s’adapte à votre rythme et vos ambitions.</p>",
+            "subtext_color": true
+          }
+        },
+        "button_MWAHMT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Devenez hôte",
+            "button_link": "https://tw.sellingathome.com/34978610-2e86-4d8d-9471-ae15f60cb2d2/candidacies",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YLCWrA",
+        "heading_qQJrkh",
+        "text_T8h3TQ",
+        "button_MWAHMT"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Web_1920_37.jpg",
+        "image_position": "right",
+        "image_width": 60,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "recently_viewed_products_myaaVA": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Produits récemment consultés",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_gDhW4i",
+    "rich_text_rf9xcf",
+    "custom_liquid_PrrYi3",
+    "testimonials_rcNmB8",
+    "image_with_text_DABcqM",
+    "image_with_text_Bq8hY7",
+    "recently_viewed_products_myaaVA"
+  ]
+}

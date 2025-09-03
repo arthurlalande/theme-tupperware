@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_Gpwkp4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_DiFnwj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tupperware"
+          }
+        },
+        "heading_H6q9zJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FAQ</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "heading_tag": "h1"
+          }
+        },
+        "text_iJUFd4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vous avez des questions ? Nous avons des réponses</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DiFnwj",
+        "heading_H6q9zJ",
+        "text_iJUFd4"
+      ],
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/mandojunior-tupperware-2793224.jpg",
+        "desktop_height": "extra-small",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "collapsible_tabs_phAkEE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_grWd8w": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "<strong>Commandes et Livraison</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_TJLChi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Où expédiez-vous ?",
+            "content": "<p>Nous livrons actuellement en Europe. Vous verrez les options disponibles lors du passage à la caisse.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_KhUxbM": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Combien de temps prendra ma commande pour arriver ?",
+            "content": "<p>La plupart des commandes sont livrées dans un délai de 3 à 5 jours ouvrables. Pendant les périodes de pointe ou les offres spéciales, la livraison peut prendre un peu plus de temps.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_PPefFd": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Quels sont les frais de livraison ?",
+            "content": "<p>La livraison est gratuite pour les commandes de plus de 89€. Les frais de livraison standard varient selon la destination et seront calculés lors du passage à la caisse.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_grWd8w",
+        "collapsible_item_TJLChi",
+        "collapsible_item_KhUxbM",
+        "collapsible_item_PPefFd"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "small",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_hBEiYB": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_r7Lc7A": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "<strong>Retours et Échanges</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_EPtxMc": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Quels modes de paiments acceptez-vous ?",
+            "content": "<p>Nous acceptons Visa, Mastercard, PayPal et d'autres méthodes de paiement sécurisées. Vous pouvez consulter toutes les options lors du passage à la caisse.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_yLq86G": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Quelle est votre politique de retour ?",
+            "content": "<p>Nous offrons une <strong>politique de retour de 30 jours</strong>. Vous avez 30 jours après la réception de votre commande pour demander un retour.</p><p>Pour être éligibles, les articles doivent être :<br/><br/>✔️ Non utilisés<br/><br/>✔️ Dans leur emballage d'origine<br/><br/>✔️ Avec toutes les étiquettes et la preuve d'achat</p><p>Pour commencer un retour, il vous suffit de nous envoyer un e-mail à contact@newtweu.com. Les retours doivent être envoyés à :<br/><br/>📍 <strong>Bigblue (Tupperware)</strong></p><p>ZAC du Long Buisson,</p><p>2 Rue Roland Garros,</p><p>27930 Guichainville, France</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_DGi3rB": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Vais-je recevoir une étiquette de retour ?",
+            "content": "<p>Oui. Si votre retour est accepté, nous vous enverrons une <strong>étiquette de retour </strong>et des instructions claires.<br/><br/>Veuillez <strong>ne pas renvoyer d'articles </strong>sans d'abord nous contacter—les retours non autorisés ne seront pas acceptés.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_e3AFh9": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Que faire si mon article est endommagé ou incorrect ?",
+            "content": "<p>Si votre commande arrive endommagée, défectueuse ou incorrecte, contactez-nous immédiatement afin que nous puissions y remédier.<br/><br/>Nous ferons de notre mieux pour corriger la situation.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_VJtVWF": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Y a-t-il des articles qui ne peuvent pas être retournés ?",
+            "content": "<p>Oui. Nous n'acceptons pas les retours sur :<br/>- Produits périssables (par exemple, aliments, plantes)<br/>- Produits personnalisés ou sur mesure<br/>- Articles de soins personnels (par exemple, produits de beauté) - Matériaux dangereux ou articles inflammables<br/>- Cartes-cadeaux<br/>- Articles en promotion<br/><br/>En cas de doute, envoyez-nous un e-mail - nous sommes heureux de vous aider.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7Lc7A",
+        "collapsible_item_EPtxMc",
+        "collapsible_item_yLq86G",
+        "collapsible_item_DGi3rB",
+        "collapsible_item_e3AFh9",
+        "collapsible_item_VJtVWF"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_qwFcff": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_dqyYMq": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "<strong>Produits et Utilisation</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_MmXRTz": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Les produits Tupperware sont-ils compatibles avec le lave-vaisselle ?",
+            "content": "<p>Oui, la plupart des Tupperware articles sont compatibles avec le lave-vaisselle. Vérifiez toujours les instructions d'entretien du produit pour des détails spécifiques.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_tWNUeL": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Puis-je utiliser Tupperware au micro-ondes, Four ou Congélateur ?",
+            "content": "<p>De nombreux produits sont conçus pour une utilisation au micro-ondes ou Congélateur . Certains articles sont également sûrs pour Four. Consultez la description du produit ou le symbole sous chaque article.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_WdQxcf": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Les produits Tupperware sont-ils sans BPA ?",
+            "content": "<p>Oui. Tous les Tupperware produits vendus aujourd'hui sont sans BPA et répondent aux normes internationales de sécurité alimentaire.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_MCWbLm": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Qu'est-ce qu'Eco+ et quels matériaux sont utilisés ?",
+            "content": "<p>Eco+ est notre gamme de produits durables fabriqués à partir de matériaux circulaires ou recyclés, sans compromettre la qualité ou la durabilité.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dqyYMq",
+        "collapsible_item_MmXRTz",
+        "collapsible_item_tWNUeL",
+        "collapsible_item_WdQxcf",
+        "collapsible_item_MCWbLm"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "scrolling_promotion_FE7pbn": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_cMwyn7": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Tupperware",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_7LEemA": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Des questions ? Nous avons les réponses !",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_cMwyn7",
+        "text_7LEemA"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.3,
+        "h_spacing": 80,
+        "show_section_divider": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_Gpwkp4",
+    "collapsible_tabs_phAkEE",
+    "collapsible_tabs_hBEiYB",
+    "collapsible_tabs_qwFcff",
+    "scrolling_promotion_FE7pbn"
+  ]
+}

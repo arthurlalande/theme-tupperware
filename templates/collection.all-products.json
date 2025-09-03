@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Gxg9wp": {
+      "type": "breadcrumbs",
+      "settings": {
+        "text_alignment": "start"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "collection_info_G8JznQ": {
+          "type": "collection_info",
+          "settings": {
+            "heading_size": "hd1",
+            "heading_tag": "h1",
+            "show_description": true,
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
+        }
+      },
+      "block_order": [
+        "collection_info_G8JznQ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-10",
+        "text_alignment": "center",
+        "show_collection_image": true,
+        "image_overlay_opacity": 30,
+        "image_position": "as-bg",
+        "image_height": "extra-small",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "image_height_mobile": "auto",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "slideshow_3bLfYV": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qL6yGw": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "{{ collection.image }}",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "<strong>{{ collection.title }}</strong>",
+            "heading_size": "hd1",
+            "description": "<p><strong>{{ collection.description }}</strong></p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_qL6yGw"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "full",
+        "slide_height": "small",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_slider_6qbNfj": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_L9N3Tg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "conservation",
+            "image": "shopify://shop_images/FOOD_STORAGE.png",
+            "title": ""
+          }
+        },
+        "featured_collection_Kmhiir": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "preparation",
+            "image": "shopify://shop_images/FOOD_PREP_85bc9617-53cb-437b-889e-ccf245438e13.png",
+            "title": ""
+          }
+        },
+        "featured_collection_gxdACj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cooking-and-reheatable",
+            "image": "shopify://shop_images/COOKING_AND_REHEATABLE_1.png",
+            "title": ""
+          }
+        },
+        "featured_collection_hgdzg3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "serving-and-entertaining",
+            "image": "shopify://shop_images/SERVING_AND_ENTERTAINING_ORANGE.png",
+            "title": ""
+          }
+        },
+        "featured_collection_rTybrR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "on-the-go",
+            "image": "shopify://shop_images/ON_THE_GO.png",
+            "title": ""
+          }
+        },
+        "featured_collection_pjBxkC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other",
+            "image": "shopify://shop_images/OTHERS.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_L9N3Tg",
+        "featured_collection_Kmhiir",
+        "featured_collection_gxdACj",
+        "featured_collection_hgdzg3",
+        "featured_collection_rTybrR",
+        "featured_collection_pjBxkC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "center",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "rounded_card_image": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination": "number",
+        "enable_filtering": true,
+        "enable_color_swatch": true,
+        "filter_type": "vertical",
+        "expand_filter_groups": "Disponibilité, Prix, Catégorie, Conservation des aliments, Préparation des aliments, Cuisson et réchauffage, Service, Sur le pouce, Autre",
+        "enable_sorting": true,
+        "enable_layout_switching": true,
+        "columns_mobile": "2",
+        "padding_top": 28,
+        "padding_bottom": 60,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Gxg9wp",
+    "banner",
+    "slideshow_3bLfYV",
+    "collection_list_slider_6qbNfj",
+    "product-grid"
+  ]
+}

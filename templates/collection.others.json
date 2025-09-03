@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Gxg9wp": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "collection_info_3WfPe9": {
+          "type": "collection_info",
+          "settings": {
+            "heading_size": "hd1",
+            "heading_tag": "h1",
+            "show_description": true,
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
+        }
+      },
+      "block_order": [
+        "collection_info_3WfPe9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "text_alignment": "center",
+        "show_collection_image": true,
+        "image_overlay_opacity": 30,
+        "image_position": "as-bg",
+        "image_height": "extra-small",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "image_height_mobile": "auto",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "slideshow_3bLfYV": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qL6yGw": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "{{ collection.image }}",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "<strong>{{ collection.title }}</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "<p><strong>{{ collection.description }}</strong></p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_qL6yGw"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "full",
+        "slide_height": "small",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_slider_6qbNfj": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_L9N3Tg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-and-care",
+            "image": "shopify://shop_images/Home_and_Care.png",
+            "title": ""
+          }
+        },
+        "featured_collection_Kmhiir": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids-and-toys",
+            "image": "shopify://shop_images/Children_-_Baby.png",
+            "title": ""
+          }
+        },
+        "featured_collection_gxdACj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eco",
+            "image": "shopify://shop_images/Eco.png",
+            "title": ""
+          }
+        },
+        "featured_collection_EHXQyP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "multi-usage",
+            "image": "shopify://shop_images/Multi-use.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_L9N3Tg",
+        "featured_collection_Kmhiir",
+        "featured_collection_gxdACj",
+        "featured_collection_EHXQyP"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "center",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "rounded_card_image": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination": "number",
+        "enable_filtering": true,
+        "enable_color_swatch": true,
+        "filter_type": "vertical",
+        "expand_filter_groups": "Disponibilité, Prix, Catégorie, Conservation des aliments, Préparation des aliments, Cuisson et réchauffage, Service, Sur le pouce, Autre",
+        "enable_sorting": true,
+        "enable_layout_switching": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Gxg9wp",
+    "banner",
+    "slideshow_3bLfYV",
+    "collection_list_slider_6qbNfj",
+    "product-grid"
+  ]
+}

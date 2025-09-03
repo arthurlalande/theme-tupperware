@@ -1,0 +1,849 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "show_soldout_badge": true,
+            "show_sale_badge": true,
+            "sale_badge_type": "text"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h3"
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "link_color": "",
+            "show_vendor": false,
+            "show_product_type": false,
+            "show_sku": false,
+            "show_barcode": true
+          }
+        },
+        "judge_me_reviews_preview_badge_MxKx3p": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "icon_with_text": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "none",
+            "heading_1": "<strong>Ref : </strong>{{ product.metafields.custom.commercial_code.value }}",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "icon_with_text_tFepFD": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "check",
+            "heading_1": "Moderne",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "icon_with_text_aybeji": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "check",
+            "heading_1": "Moderne",
+            "icon_2": "check",
+            "heading_2": "Eco-certifié",
+            "icon_3": "check",
+            "heading_3": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_type": "variant_image",
+            "swatch_style": "circle",
+            "swatch_size": 32,
+            "button_style": "normal",
+            "size_title": "Taille",
+            "size_chart_from_page": ""
+          }
+        },
+        "promotion_alert_XAfTQn": {
+          "type": "promotion_alert",
+          "disabled": true,
+          "settings": {
+            "text_color": "#7a34d6",
+            "icon": "package",
+            "heading": "Informations sur la précommande",
+            "description": "<p>Livraison estimée : 2-3 semaines après l'achat</p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "sticky_atc_bar_p84knK": {
+          "type": "sticky-atc-bar",
+          "settings": {
+            "container": "full",
+            "visibility": "all",
+            "show_atc_button": true,
+            "show_dynamic_checkout_buttons": false,
+            "show_quantity": true
+          }
+        },
+        "icon_with_text_VRRtiW": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "package",
+            "heading_1": "Livraison offerte pour les commandes de plus de 99€",
+            "icon_2": "arrow-up-left",
+            "heading_2": "",
+            "icon_3": "star-four",
+            "heading_3": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "promotion_alert_L7ipQp": {
+          "type": "promotion_alert",
+          "disabled": true,
+          "settings": {
+            "text_color": "#13524f",
+            "icon": "lightning",
+            "heading": "Offre limitée dans le temps",
+            "description": "<p>Ne passez pas à côté de cet avantage à durée limitée conçu pour vous</p>"
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Parfaite adéquation avec",
+            "heading_size": "h4",
+            "show_below_product_media": false,
+            "make_collapsible_row": false,
+            "icon": "tag",
+            "product_list_limit": 6,
+            "columns": 3,
+            "image_ratio": "1/1",
+            "enable_quick_add": true
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Benefits",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": true,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_LJEHcH": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Use and care",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_piweU8": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Specs",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_hC7dbQ": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Tips",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_xxzepQ": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Quality Product Warranty",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_qbNM8G": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Disclosures",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "payment_info": {
+          "type": "payment_info",
+          "settings": {
+            "color_scheme": "scheme-info",
+            "heading": "Paiement et Sécurité",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "description": "<p>Vos informations de paiement sont traitées de manière sécurisée. Nous ne stockons pas les détails de votre carte de crédit et n'avons pas accès à vos informations de carte de crédit.</p>",
+            "show_payment_icons": true,
+            "show_below_product_media": true
+          }
+        },
+        "divider_pPz3Kw": {
+          "type": "divider",
+          "settings": {
+            "show_below_product_media": false
+          }
+        },
+        "collapsible_tab_DYt7En": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "heading_size": "h4",
+            "icon": "check",
+            "content": "{{ product.description }}",
+            "page": "",
+            "default_open": true,
+            "show_below_product_media": false
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "title",
+        "meta",
+        "judge_me_reviews_preview_badge_MxKx3p",
+        "icon_with_text",
+        "price",
+        "icon_with_text_tFepFD",
+        "icon_with_text_aybeji",
+        "variant_picker",
+        "promotion_alert_XAfTQn",
+        "buy_buttons",
+        "sticky_atc_bar_p84knK",
+        "icon_with_text_VRRtiW",
+        "description",
+        "pickup_availability",
+        "promotion_alert_L7ipQp",
+        "complementary",
+        "collapsible-row-1",
+        "collapsible_tab_LJEHcH",
+        "collapsible_tab_piweU8",
+        "collapsible_tab_hC7dbQ",
+        "collapsible_tab_xxzepQ",
+        "collapsible_tab_qbNM8G",
+        "payment_info",
+        "divider_pPz3Kw",
+        "collapsible_tab_DYt7En"
+      ],
+      "custom_css": [
+        "@media (max-width: 767.98px) {.product {--product-gap: 1rem; } .product__block {--product-blocks-gap: 1.2rem; } .swiper-show-nav-on-hover:has(.swiper-controls--nav-floating) {position: relative; padding-inline: 6rem; } h1 {display: block; font-size: 1.8em; margin-block-start: 0.1em; margin-block-end: 0.1em; font-weight: bold; unicode-bidi: isolate; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "gallery_layout": "vertical-carousel",
+        "mobile_thumbnails": "show",
+        "enable_image_zoom": false,
+        "enable_video_looping": true,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "featured_collection_xme94L": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_haMt6E": {
+          "type": "collection",
+          "settings": {
+            "collection": "tupperware",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_haMt6E"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Vous aimerez peut-être <strong>également</strong>",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "pcard_image_ratio": "1/1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "buttons_with_icon_HXKNaa": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_VJrYad": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Déjeuner et collations",
+            "button_link": "shopify://collections/lunch-and-snacks",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-ww-st-2107-1177_-_Grande_782b5563-6833-41c4-8bfc-3443ed77977a.jpg"
+          }
+        },
+        "button_item_AdmDgF": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Pâtisserie",
+            "button_link": "shopify://collections/baking",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-emea-mkg-2407-19064_-_Grande_56886e34-93ba-42b0-9156-3cdbabf16cfa.jpg"
+          }
+        },
+        "button_item_e69hpV": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Ustensiles",
+            "button_link": "shopify://collections/kitchen-tools",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-ww-st-2209-12346_-_Grande_-_Grande_f2b2d74c-dc42-4392-a17e-c2f58728da89.jpg"
+          }
+        },
+        "button_item_HyE9NB": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Ustensiles de cuisine",
+            "button_link": "shopify://collections/kitchen-utensils",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/thatsa-bowls-2310-13028_371d760f-3170-4763-8a5f-e34c36b67dfe.jpg"
+          }
+        },
+        "button_item_N7a3hm": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Conervation au congélateur",
+            "button_link": "shopify://collections/freezer_storage",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-ww-st-2311-6046_-_Grande_1.jpg"
+          }
+        },
+        "button_item_kmYAia": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Conservation à sec",
+            "button_link": "shopify://collections/dry-storage",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-emea-mkg-2406-19256_-_Grande_fe35ce4d-ddc8-4551-9883-2efa26bea53d.jpg"
+          }
+        },
+        "button_item_dHRRw8": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Bouteilles isothermes",
+            "button_link": "shopify://collections/thermal-drinkware",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-ww-st-2407-6024_-_Grande_1.jpg"
+          }
+        },
+        "button_item_yhbYWP": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Préparation des aliments",
+            "button_link": "shopify://collections/preparation",
+            "icon": "check",
+            "icon_img": "shopify://shop_images/tupperware-emea-mkg-2403-19298_-_Grande_f588ad57-78ec-499e-99d8-71af4f6fa56d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_VJrYad",
+        "button_item_AdmDgF",
+        "button_item_e69hpV",
+        "button_item_HyE9NB",
+        "button_item_N7a3hm",
+        "button_item_kmYAia",
+        "button_item_dHRRw8",
+        "button_item_yhbYWP"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "<strong>Les Recherches </strong>Populaires",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "item_alignment": "left",
+        "item_button_style": "btn--icon",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_kqXfRQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_taVjEY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Rafraîchi"
+          }
+        },
+        "heading_ngPQi3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tupperware est <strong>de retour</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_nF69XB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redécouvrez la marque qui a défini le Conservationintelligent. Avec un nouveau look frais et la même qualité de confiance, Tupperware revient pour ramener simplicité, durabilité et style dans votre routine quotidienne.</p>",
+            "subtext_color": true
+          }
+        },
+        "button_fQzFTq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lire la suite",
+            "button_link": "shopify://pages/about",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_taVjEY",
+        "heading_ngPQi3",
+        "text_nF69XB",
+        "button_fQzFTq"
+      ],
+      "custom_css": [
+        "@media (min-width: 1024px) {.image-with-text__wrapper {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/tupperware-st-ww-2301-12011_-_Grande_-_Grande_3c09de3b-b6e8-4fba-ac58-b5ec922ac5bb.jpg",
+        "image_position": "right",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "recently_viewed_products_CWzjmG": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Produits consultés <strong>récemment</strong>",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_VMbJhW": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_h7JQUr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dry-storage",
+            "image": "shopify://shop_images/Dry_Storage.png",
+            "title": ""
+          }
+        },
+        "featured_collection_BC4Axm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "refregirator-storage",
+            "image": "shopify://shop_images/Refregirator_Storage.png",
+            "title": ""
+          }
+        },
+        "featured_collection_RYDYB8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "freezer_storage",
+            "image": "shopify://shop_images/Freezer_Storage.png",
+            "title": ""
+          }
+        },
+        "featured_collection_kmCp69": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baking",
+            "image": "shopify://shop_images/BACKING_58fb3ee3-c524-4e92-b3a5-24c2f3265ff0.png",
+            "title": ""
+          }
+        },
+        "featured_collection_nAqP3p": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kitchen-utensils",
+            "image": "shopify://shop_images/Kitchen_Utensils.png",
+            "title": ""
+          }
+        },
+        "featured_collection_7nfwx4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bowls",
+            "image": "shopify://shop_images/Bowls_5545bc2c-186e-4051-8a82-a0d4ef9f2c5f.png",
+            "title": ""
+          }
+        },
+        "featured_collection_yfexMK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "microwave",
+            "image": "shopify://shop_images/Microwave.png",
+            "title": ""
+          }
+        },
+        "featured_collection_WtEGNC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oven",
+            "image": "shopify://shop_images/Oven.png",
+            "title": ""
+          }
+        },
+        "featured_collection_TpXBUH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "air-fryer",
+            "image": "shopify://shop_images/Air_Fryer.png",
+            "title": ""
+          }
+        },
+        "featured_collection_tNbWkk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "plates-and-bowls",
+            "image": "shopify://shop_images/Plates_and_Bowls.png",
+            "title": "Saladiers - Plats"
+          }
+        },
+        "featured_collection_CcBbBV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cultery",
+            "image": "shopify://shop_images/Group_23.png",
+            "title": ""
+          }
+        },
+        "featured_collection_DhYJyM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beverage",
+            "image": "shopify://shop_images/Drinkware.png",
+            "title": ""
+          }
+        },
+        "featured_collection_4AXf9E": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lunch-and-snacks",
+            "image": "shopify://shop_images/Lunch_Snack.png",
+            "title": ""
+          }
+        },
+        "featured_collection_hceaDQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "thermal-drinkware",
+            "image": "shopify://shop_images/Thermal_Drinkware.png",
+            "title": ""
+          }
+        },
+        "featured_collection_VYj3LC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottles",
+            "image": "shopify://shop_images/Waterbottles.png",
+            "title": ""
+          }
+        },
+        "featured_collection_6G9CPk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-and-care",
+            "image": "shopify://shop_images/Home_and_Care.png",
+            "title": ""
+          }
+        },
+        "featured_collection_7r7xNy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids-and-toys",
+            "image": "shopify://shop_images/Kids.png",
+            "title": "Enfants - Bébés"
+          }
+        },
+        "featured_collection_CqFe4f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eco",
+            "image": "shopify://shop_images/Eco.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_h7JQUr",
+        "featured_collection_BC4Axm",
+        "featured_collection_RYDYB8",
+        "featured_collection_kmCp69",
+        "featured_collection_nAqP3p",
+        "featured_collection_7nfwx4",
+        "featured_collection_yfexMK",
+        "featured_collection_WtEGNC",
+        "featured_collection_TpXBUH",
+        "featured_collection_tNbWkk",
+        "featured_collection_CcBbBV",
+        "featured_collection_DhYJyM",
+        "featured_collection_4AXf9E",
+        "featured_collection_hceaDQ",
+        "featured_collection_VYj3LC",
+        "featured_collection_6G9CPk",
+        "featured_collection_7r7xNy",
+        "featured_collection_CqFe4f"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Achetez par <strong>Catégories</strong>",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "Tous les produits",
+        "button_link": "shopify://collections/tupperware",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "adapt",
+        "card_image_width": "large",
+        "rounded_card_image": false,
+        "card_show_border": false,
+        "columns_desktop": 6,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "grid_bordered": true,
+        "columns_mobile": "3",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "full"
+      }
+    },
+    "174435452013df6f2b": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_XYmbVC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_XYmbVC"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "174435454215239ede": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "featured_collection_xme94L",
+    "buttons_with_icon_HXKNaa",
+    "image_with_text_kqXfRQ",
+    "recently_viewed_products_CWzjmG",
+    "collection_list_VMbJhW",
+    "174435452013df6f2b",
+    "174435454215239ede"
+  ]
+}
