@@ -20,11 +20,8 @@
           <div class="{{ block_classes }}">
             {% render block %}
           </div>
-
         {%- when 'category-label' -%}
-          <div class="{{ block_classes }}">
             {% render 'category-label', block: block %}
-          </div>
         {%- when 'divider' -%}
           <div class="{{ block_classes }}" {{ block.shopify_attributes }}>
             <div class="product__divider no-empty"></div>
