@@ -93,6 +93,7 @@
                 <span>{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
+            {% comment %}
             <div class="product__tax text-sm text-subtext rte">
               {%- if cart.taxes_included -%}
                 {{ 'products.product.include_taxes' | t }}
@@ -101,6 +102,7 @@
                 {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- endif -%}
             </div>
+            {% endcomment %}
             {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
             {%- form 'product', product, id: product_form_installment_id, class: 'installment' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
