@@ -384,13 +384,13 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "subheading": "",
-            "title": "<strong>Banner title</strong>{{ product.metafields.custom.banner_title.value }}",
+            "title": "<strong>{{ product.metafields.custom.banner_title.value }}</strong><strong>Banner TITLE</strong>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "h3",
-            "description": "<p>Banner Text{{ product.metafields.custom.banner_text | metafield_tag }}</p>",
+            "heading_size": "hd2",
+            "description": "<p>{{ product.metafields.custom.banner_text | metafield_tag }}Lorem ipsum</p>",
             "description_size": "text-base",
             "button_label": "",
             "button_link": "",
@@ -403,6 +403,7 @@
       "block_order": [
         "slide_BwAgAX"
       ],
+      "custom_css": [],
       "name": "t:sections.slideshow.name",
       "settings": {
         "container": "full",
@@ -421,12 +422,12 @@
         "heading_akm4Dj": {
           "type": "heading",
           "settings": {
-            "heading": "Title - Media with text 1",
+            "heading": "Pratique au <strong>quotidien</strong>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "h3"
+            "heading_size": "h1"
           }
         },
         "text_GxE3iX": {
@@ -445,6 +446,7 @@
       "settings": {
         "container": "fixed",
         "color_scheme": "",
+        "image": "shopify://shop_images/placeholder.svg",
         "image_position": "left",
         "image_width": 50,
         "desktop_content_position": "center",
@@ -456,36 +458,37 @@
         "padding_bottom": 40
       }
     },
-    "image_with_text_Yppw69": {
+    "image_with_text_yfXttm": {
       "type": "image-with-text",
       "blocks": {
-        "heading_iWANhM": {
+        "heading_iEAYXq": {
           "type": "heading",
           "settings": {
-            "heading": "Title - Media with text 2",
+            "heading": "Pratique au <strong>quotidien</strong>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "h3"
+            "heading_size": "h1"
           }
         },
-        "text_mtKwrm": {
+        "text_AThF3T": {
           "type": "text",
           "settings": {
-            "text": "<p>Paragraph - Media with text 2</p>",
+            "text": "<p>Paragraph - Media with text 1 </p>",
             "subtext_color": true
           }
         }
       },
       "block_order": [
-        "heading_iWANhM",
-        "text_mtKwrm"
+        "heading_iEAYXq",
+        "text_AThF3T"
       ],
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
         "color_scheme": "",
+        "image": "shopify://shop_images/placeholder.svg",
         "image_position": "right",
         "image_width": 50,
         "desktop_content_position": "center",
@@ -493,8 +496,50 @@
         "mobile_content_alignment": "inherit",
         "show_section_divider": false,
         "divider_width": "fixed",
-        "padding_top": 40,
-        "padding_bottom": 80
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_9kpDPc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zdnBj6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pratique au <strong>quotidien</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_xRFmLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paragraph - Media with text 1 </p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zdnBj6",
+        "text_xRFmLn"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/placeholder.svg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "collapsible_tabs_EhYdFH": {
@@ -608,11 +653,21 @@
             "text": "<p>Redécouvrez la marque qui a défini le Conservation intelligent. Avec un nouveau look frais et la même qualité de confiance, Tupperware revient pour ramener simplicité,<br/>durabilité et style dans votre cuisine. </p>",
             "subtext_color": true
           }
+        },
+        "button_VJzkwg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrez nos nouveautés ✨",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
         }
       },
       "block_order": [
         "heading_RbyjHF",
-        "text_EXmW8Y"
+        "text_EXmW8Y",
+        "button_VJzkwg"
       ],
       "name": "t:sections.image-with-text.name",
       "settings": {
@@ -1072,7 +1127,8 @@
     "quality_reassurance_EbyDKx",
     "slideshow_JkYeAd",
     "image_with_text_AfJxyk",
-    "image_with_text_Yppw69",
+    "image_with_text_yfXttm",
+    "image_with_text_9kpDPc",
     "collapsible_tabs_EhYdFH",
     "image_with_text_ymgLmz",
     "featured_collection_xme94L",
