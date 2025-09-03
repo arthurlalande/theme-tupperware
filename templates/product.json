@@ -20,8 +20,18 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "category_labels_e7mwdB": {
+          "type": "category-labels",
+          "settings": {
+            "label_background_color": "#e0f1fb",
+            "label_text_color": "#00524f",
+            "label_main_category": "Main category",
+            "label_sub_category": "Sub category"
+          }
+        },
         "badges": {
           "type": "badges",
+          "disabled": true,
           "settings": {
             "show_soldout_badge": true,
             "show_sale_badge": true,
@@ -292,6 +302,7 @@
         }
       },
       "block_order": [
+        "category_labels_e7mwdB",
         "badges",
         "title",
         "icon_with_text",
