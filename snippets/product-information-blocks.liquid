@@ -67,7 +67,7 @@
           </div>
         {%- when 'text' -%}
           <div class="{{ block_classes }} rte" {{ block.shopify_attributes }}>
-            <p class="product__text inline-richtext m-0{% if block.settings.text_style == 'uppercase' %} text-upper{% elsif block.settings.text_style == 'subtitle' %} text-upper text-subtext{% endif %}">
+            <p class="product__text inline-richtext m-0{% if block.settings.text_style == 'uppercase' %} text-upper{% elsif block.settings.text_style == 'subtitle' %} text-upper text-subtext{% endif %}" style="color: {{ block.settings.text_color }};">
               {{- block.settings.text -}}
             </p>
           </div>
