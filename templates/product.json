@@ -38,9 +38,11 @@
         },
         "text_hBWNkG": {
           "type": "text",
+          "name": "Sous-titre",
           "settings": {
             "text": "Subtitle{{ product.metafields.custom.subtitle.value }}",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#838383"
           }
         },
         "meta": {
@@ -66,16 +68,19 @@
         },
         "icon_with_text_NNjYqK": {
           "type": "icon-with-text",
+          "name": "4 Icônes avec texte",
           "settings": {
             "layout": "vertical",
             "title_font": "heading",
             "title_size": "h5",
             "icon_1": "check",
-            "heading_1": "Heading",
+            "heading_1": "Valueprop1{{ product.metafields.custom.proposition_de_valeur_1.value }}",
             "icon_2": "check",
-            "heading_2": "Heading",
+            "heading_2": "Valueprop2{{ product.metafields.custom.proposition_de_valeur_2.value }}",
             "icon_3": "check",
-            "heading_3": "Heading"
+            "heading_3": "Valueprop3{{ product.metafields.custom.proposition_de_valeur_3.value }}",
+            "icon_4": "check",
+            "heading_4": "Valueprop4{{ product.metafields.custom.proposition_de_valeur_4.value }}"
           }
         },
         "price": {
@@ -98,7 +103,8 @@
           "type": "text",
           "settings": {
             "text": "Livraison estimée le 01/09",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#838383"
           }
         },
         "buy_buttons": {
@@ -140,7 +146,7 @@
             "heading": "Description",
             "heading_size": "h5",
             "icon": "none",
-            "content": "{{ product.description }}",
+            "content": "<p>{{ product.description }}</p>",
             "page": "",
             "default_open": false,
             "show_below_product_media": false
