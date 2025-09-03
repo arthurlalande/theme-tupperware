@@ -14,6 +14,7 @@
     "logo_width_mobile": 90,
     "favicon": "shopify://shop_images/T-Icon-Background-Ocean-Breeze-V3-Tupperware-2310_1.png",
     "color_badge_sale": "#049B6E",
+    "color_badge_soldout": "#ffffff",
     "type_body_font": "instrument_sans_n5",
     "body_font_weight_bolder": "900",
     "body_font_size": 14,
@@ -397,6 +398,44 @@
           "button_label": "#000000",
           "secondary_button": "#ededed",
           "secondary_button_border": "#282828",
+          "secondary_button_label": "#000000",
+          "form_field": "#ededed",
+          "form_field_label": "#000000",
+          "product_price_sale": "#00524f",
+          "progress_bar_color": "#0d8756"
+        }
+      },
+      "scheme-bfd8eadc-4aa4-4055-9cdf-3868862dee2d": {
+        "settings": {
+          "primary_accent": "#00524f",
+          "border": "#e5e5e5",
+          "text": "#282828",
+          "subtext": "#282828",
+          "background": "#e0f1fb",
+          "secondary_background": "#ffffff",
+          "button": "#000000",
+          "button_label": "#ffffff",
+          "secondary_button": "#ededed",
+          "secondary_button_border": "#ededed",
+          "secondary_button_label": "#000000",
+          "form_field": "#ededed",
+          "form_field_label": "#000000",
+          "product_price_sale": "#00524f",
+          "progress_bar_color": "#0d8756"
+        }
+      },
+      "scheme-233e59e6-c596-4894-b2e9-fad5ba8cfc00": {
+        "settings": {
+          "primary_accent": "#00524f",
+          "border": "#e5e5e5",
+          "text": "#282828",
+          "subtext": "#282828",
+          "background": "#f8f8f8",
+          "secondary_background": "#ffffff",
+          "button": "#000000",
+          "button_label": "#ffffff",
+          "secondary_button": "#ededed",
+          "secondary_button_border": "#ededed",
           "secondary_button_label": "#000000",
           "form_field": "#ededed",
           "form_field_label": "#000000",

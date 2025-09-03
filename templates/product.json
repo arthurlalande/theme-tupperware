@@ -34,20 +34,6 @@
             "heading_size": "h3"
           }
         },
-        "meta": {
-          "type": "meta",
-          "settings": {
-            "link_color": "",
-            "show_vendor": false,
-            "show_product_type": false,
-            "show_sku": false,
-            "show_barcode": true
-          }
-        },
-        "judge_me_reviews_preview_badge_MxKx3p": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "icon_with_text": {
           "type": "icon-with-text",
           "settings": {
@@ -62,39 +48,44 @@
             "heading_3": ""
           }
         },
+        "text_hBWNkG": {
+          "type": "text",
+          "settings": {
+            "text": "Subtitle",
+            "text_style": "body"
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "link_color": "",
+            "show_vendor": false,
+            "show_product_type": false,
+            "show_sku": false,
+            "show_barcode": true
+          }
+        },
+        "judge_me_reviews_preview_badge_MxKx3p": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "icon_with_text_NNjYqK": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "title_font": "heading",
+            "title_size": "h5",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
-        },
-        "icon_with_text_tFepFD": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "title_font": "body",
-            "title_size": "text-base",
-            "icon_1": "check",
-            "heading_1": "Moderne",
-            "icon_2": "none",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
-          }
-        },
-        "icon_with_text_aybeji": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "title_font": "body",
-            "title_size": "text-base",
-            "icon_1": "check",
-            "heading_1": "Moderne",
-            "icon_2": "check",
-            "heading_2": "Eco-certifié",
-            "icon_3": "check",
-            "heading_3": ""
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -108,14 +99,11 @@
             "size_chart_from_page": ""
           }
         },
-        "promotion_alert_XAfTQn": {
-          "type": "promotion_alert",
-          "disabled": true,
+        "text_pMniWm": {
+          "type": "text",
           "settings": {
-            "text_color": "#7a34d6",
-            "icon": "package",
-            "heading": "Informations sur la précommande",
-            "description": "<p>Livraison estimée : 2-3 semaines après l'achat</p>"
+            "text": "Livraison estimée le 01/09",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -136,38 +124,10 @@
             "show_quantity": true
           }
         },
-        "icon_with_text_VRRtiW": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "title_font": "body",
-            "title_size": "text-base",
-            "icon_1": "package",
-            "heading_1": "Livraison offerte pour les commandes de plus de 99€",
-            "icon_2": "arrow-up-left",
-            "heading_2": "",
-            "icon_3": "star-four",
-            "heading_3": ""
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
           "settings": {}
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "promotion_alert_L7ipQp": {
-          "type": "promotion_alert",
-          "disabled": true,
-          "settings": {
-            "text_color": "#13524f",
-            "icon": "lightning",
-            "heading": "Offre limitée dans le temps",
-            "description": "<p>Ne passez pas à côté de cet avantage à durée limitée conçu pour vous</p>"
-          }
         },
         "complementary": {
           "type": "complementary",
@@ -286,11 +246,47 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Description",
-            "heading_size": "h4",
-            "icon": "check",
+            "heading_size": "h5",
+            "icon": "none",
             "content": "{{ product.description }}",
             "page": "",
             "default_open": true,
+            "show_below_product_media": false
+          }
+        },
+        "collapsible_tab_8B6AwL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Caractéristiques / Spécifications",
+            "heading_size": "h5",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": false
+          }
+        },
+        "collapsible_tab_QBU397": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Garantie & Entretien",
+            "heading_size": "h5",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": false
+          }
+        },
+        "collapsible_tab_itJKXD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Conseils d'utilisation / Tips",
+            "heading_size": "h5",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false,
             "show_below_product_media": false
           }
         }
@@ -298,20 +294,17 @@
       "block_order": [
         "badges",
         "title",
+        "icon_with_text",
+        "text_hBWNkG",
         "meta",
         "judge_me_reviews_preview_badge_MxKx3p",
-        "icon_with_text",
+        "icon_with_text_NNjYqK",
         "price",
-        "icon_with_text_tFepFD",
-        "icon_with_text_aybeji",
         "variant_picker",
-        "promotion_alert_XAfTQn",
+        "text_pMniWm",
         "buy_buttons",
         "sticky_atc_bar_p84knK",
-        "icon_with_text_VRRtiW",
         "description",
-        "pickup_availability",
-        "promotion_alert_L7ipQp",
         "complementary",
         "collapsible-row-1",
         "collapsible_tab_LJEHcH",
@@ -321,7 +314,10 @@
         "collapsible_tab_qbNM8G",
         "payment_info",
         "divider_pPz3Kw",
-        "collapsible_tab_DYt7En"
+        "collapsible_tab_DYt7En",
+        "collapsible_tab_8B6AwL",
+        "collapsible_tab_QBU397",
+        "collapsible_tab_itJKXD"
       ],
       "custom_css": [
         "@media (max-width: 767.98px) {.product {--product-gap: 1rem; } .product__block {--product-blocks-gap: 1.2rem; } .swiper-show-nav-on-hover:has(.swiper-controls--nav-floating) {position: relative; padding-inline: 6rem; } h1 {display: block; font-size: 1.8em; margin-block-start: 0.1em; margin-block-end: 0.1em; font-weight: bold; unicode-bidi: isolate; }}"
@@ -330,12 +326,301 @@
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
         "media_size": "small",
-        "gallery_layout": "vertical-carousel",
+        "gallery_layout": "grid-mix",
         "mobile_thumbnails": "show",
         "enable_image_zoom": false,
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 80
+      }
+    },
+    "rich_text_J6yniM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gpGJxF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une <strong>qualité </strong>sans compromis",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gpGJxF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-bfd8eadc-4aa4-4055-9cdf-3868862dee2d",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "slideshow_JkYeAd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_BwAgAX": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/Banner_Tupperware_-_Product_page.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "<strong>Banner Title</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "<p>Banner Text</p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_BwAgAX"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "full",
+        "slide_height": "large",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_AfJxyk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_akm4Dj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Title - Media with text 1",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_GxE3iX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paragraph - Media with text 1 </p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_akm4Dj",
+        "text_GxE3iX"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_Yppw69": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iWANhM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Title - Media with text 2",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_mtKwrm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Paragraph - Media with text 2</p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWANhM",
+        "text_mtKwrm"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image_position": "right",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_tabs_EhYdFH": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_MVwqLi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "FAQ - Question 1",
+            "content": "<p>FAQ - Answer 1</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_RyRQ3k": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "FAQ - Question 2",
+            "content": "<p>FAQ - Answer 2</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_VmYycy": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "FAQ - Question 3",
+            "content": "<p>FAQ - Answer 3</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_9MTp3i": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "FAQ - Question 4",
+            "content": "<p>FAQ - Answer 4</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_MVwqLi",
+        "collapsible_item_RyRQ3k",
+        "collapsible_item_VmYycy",
+        "collapsible_item_9MTp3i"
+      ],
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "<strong>FAQ</strong>",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_ymgLmz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RbyjHF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tupperware est <strong>de retour</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_EXmW8Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redécouvrez la marque qui a défini le Conservation intelligent. Avec un nouveau look frais et la même qualité de confiance, Tupperware revient pour ramener simplicité,<br/>durabilité et style dans votre cuisine. </p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbyjHF",
+        "text_EXmW8Y"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/media_with_text_-_tupperware.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 40
       }
     },
     "featured_collection_xme94L": {
@@ -381,7 +666,7 @@
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "description": "",
         "text_size": "text-base",
         "button_label": "",
@@ -490,7 +775,7 @@
       ],
       "settings": {
         "container": "fixed",
-        "color_scheme": "",
+        "color_scheme": "scheme-233e59e6-c596-4894-b2e9-fad5ba8cfc00",
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
@@ -499,7 +784,7 @@
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "item_alignment": "left",
         "item_button_style": "btn--icon",
         "enable_slider": true,
@@ -508,96 +793,6 @@
         "divider_width": "fixed",
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "image_with_text_kqXfRQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_taVjEY": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Rafraîchi"
-          }
-        },
-        "heading_ngPQi3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tupperware est <strong>de retour</strong>",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h2"
-          }
-        },
-        "text_nF69XB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Redécouvrez la marque qui a défini le Conservationintelligent. Avec un nouveau look frais et la même qualité de confiance, Tupperware revient pour ramener simplicité, durabilité et style dans votre routine quotidienne.</p>",
-            "subtext_color": true
-          }
-        },
-        "button_fQzFTq": {
-          "type": "button",
-          "settings": {
-            "button_label": "Lire la suite",
-            "button_link": "shopify://pages/about",
-            "button_style": "btn--primary",
-            "button_icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_taVjEY",
-        "heading_ngPQi3",
-        "text_nF69XB",
-        "button_fQzFTq"
-      ],
-      "custom_css": [
-        "@media (min-width: 1024px) {.image-with-text__wrapper {padding-inline: 5rem; }}"
-      ],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "image": "shopify://shop_images/tupperware-st-ww-2301-12011_-_Grande_-_Grande_3c09de3b-b6e8-4fba-ac58-b5ec922ac5bb.jpg",
-        "image_position": "right",
-        "image_width": 50,
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "inherit",
-        "show_section_divider": false,
-        "divider_width": "fixed",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "recently_viewed_products_CWzjmG": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Produits consultés <strong>récemment</strong>",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "pcard_image_ratio": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     },
     "collection_list_VMbJhW": {
@@ -779,7 +974,7 @@
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "description": "",
         "text_size": "text-base",
         "button_label": "Tous les produits",
@@ -803,6 +998,35 @@
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "full"
+      }
+    },
+    "recently_viewed_products_CWzjmG": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Produits consultés <strong>récemment</strong>",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "174435452013df6f2b": {
@@ -838,11 +1062,16 @@
   "order": [
     "breadcrumbs",
     "main",
+    "rich_text_J6yniM",
+    "slideshow_JkYeAd",
+    "image_with_text_AfJxyk",
+    "image_with_text_Yppw69",
+    "collapsible_tabs_EhYdFH",
+    "image_with_text_ymgLmz",
     "featured_collection_xme94L",
     "buttons_with_icon_HXKNaa",
-    "image_with_text_kqXfRQ",
-    "recently_viewed_products_CWzjmG",
     "collection_list_VMbJhW",
+    "recently_viewed_products_CWzjmG",
     "174435452013df6f2b",
     "174435454215239ede"
   ]
