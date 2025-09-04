@@ -147,5 +147,12 @@
           </button>
         {%- endif -%}
     {%- endcase -%}
+    
+    {%- comment -%} Badge sur la première image {%- endcomment -%}
+    {%- if position == 0 and show_product_badge -%}
+      <div class="product__media-badge">
+        Badge
+      </div>
+    {%- endif -%}
   </div>
 </div>

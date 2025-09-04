@@ -78,7 +78,8 @@
             media_layout: media_layout,
             mobile_thumbnails: mobile_thumbnails,
             variant_images: variant_images,
-            enable_image_zoom: enable_image_zoom
+            enable_image_zoom: enable_image_zoom,
+            show_product_badge: section.settings.show_product_badge
           %}
           {% render 'product-information-below-media' %}
         </div>
@@ -2373,6 +2374,12 @@
       ],
       "default": "hide",
       "label": "t:sections.main-product.settings.mobile_thumbnails.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_badge",
+      "default": true,
+      "label": "Afficher le badge du produit"
     },
     {
       "type": "checkbox",

@@ -84,3 +84,24 @@
   .product__media-item:first-child {
   width: 100%;
 }
+
+/* Product media badge */
+
+.product__media-badge {
+  position: absolute;
+  top: 22px;
+  left: 12px;
+  z-index: 10;
+  background-color: #ffe3b3;
+  color: #00524f;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 999px;
+  width: auto; /* Largeur automatique selon le contenu */
+  height: auto; /* Hauteur automatique selon le contenu */
+  display: inline-block; /* Pour que width/height fonctionnent */
+}
