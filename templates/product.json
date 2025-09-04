@@ -325,21 +325,21 @@
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_1.value }}",
-            "text": "{{ product.metafields.custom.text_icone_1.value }}"
+            "text": "Texte qualité 1"
           }
         },
         "item_8dCMNV": {
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_2.value }}",
-            "text": "{{ product.metafields.custom.text_icone_2.value }}"
+            "text": "Texte qualité 2"
           }
         },
         "item_GttfJ7": {
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_3.value }}",
-            "text": "{{ product.metafields.custom.text_icone_3.value }}"
+            "text": "Texte qualité 3"
           }
         }
       },
