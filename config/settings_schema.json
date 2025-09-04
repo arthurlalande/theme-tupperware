@@ -17,14 +17,14 @@
       {
         "type": "checkbox",
         "id": "enable_rtl",
-        "label": "t:settings_schema.general.settings.enable_rtl.label",  
+        "label": "t:settings_schema.general.settings.enable_rtl.label",
         "default": false
       },
       {
         "type": "text",
         "id": "language_support_rtl",
         "label": "t:settings_schema.general.settings.language_support_rtl.label",
-        "default": "he,ar", 
+        "default": "he,ar",
         "info": "t:settings_schema.general.settings.language_support_rtl.info"
       },
       {
@@ -200,7 +200,7 @@
           },
           {
             "type": "header",
-            "content": "Other colors" 
+            "content": "Other colors"
           },
           {
             "type": "color",
@@ -934,7 +934,7 @@
           {
             "value": "card",
             "label": "t:settings_schema.product_cards.settings.style.options__2.label"
-          } 
+          }
         ],
         "default": "standard",
         "label": "t:settings_schema.product_cards.settings.style.label"
@@ -958,7 +958,7 @@
           }
         ],
         "default": "left"
-      }, 
+      },
       {
         "type": "select",
         "id": "pcard_title_line_limit",
@@ -1057,7 +1057,7 @@
         "type": "header",
         "content": "t:settings_schema.product_cards.settings.header__quick_add.content"
       },
-      { 
+      {
         "type": "checkbox",
         "id": "pcard_show_cart_button",
         "label": "t:settings_schema.product_cards.settings.action_show_add_to_cart.label",
@@ -1706,6 +1706,139 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Délais de livraison",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Délai de préparation"
+      },
+      {
+        "type": "range",
+        "id": "order_preparation_days",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "unit": "j",
+        "label": "Temps de préparation des commandes",
+        "default": 0,
+        "info": "Nombre de jours ouvrés nécessaires pour préparer la commande."
+      },
+      {
+        "type": "header",
+        "content": "Format d'affichage"
+      },
+      {
+        "type": "select",
+        "id": "delivery_display_format",
+        "label": "Format de la date de livraison",
+        "options": [
+          {
+            "value": "from_date",
+            "label": "À partir du [date min]"
+          },
+          {
+            "value": "between_dates",
+            "label": "Entre [date min] et [date max]"
+          },
+          {
+            "value": "average_date",
+            "label": "Le [date moyenne]"
+          }
+        ],
+        "default": "from_date",
+        "info": "Choisissez comment afficher l'estimation de livraison"
+      },
+      {
+        "type": "header",
+        "content": "Délais de livraison - France"
+      },
+      {
+        "type": "range",
+        "id": "france_min_delivery_days",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai minimum (jours ouvrés)",
+        "default": 2
+      },
+      {
+        "type": "range",
+        "id": "france_max_delivery_days",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai maximum (jours ouvrés)",
+        "default": 4
+      },
+      {
+        "type": "header",
+        "content": "Délais de livraison - Europe"
+      },
+      {
+        "type": "range",
+        "id": "europe_min_delivery_days",
+        "min": 1,
+        "max": 15,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai minimum (jours ouvrés)",
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "europe_max_delivery_days",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai maximum (jours ouvrés)",
+        "default": 6
+      },
+      {
+        "type": "header",
+        "content": "Délais de livraison - International"
+      },
+      {
+        "type": "range",
+        "id": "international_min_delivery_days",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai minimum (jours ouvrés)",
+        "default": 5
+      },
+      {
+        "type": "range",
+        "id": "international_max_delivery_days",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "unit": "j",
+        "label": "Délai maximum (jours ouvrés)",
+        "default": 10
+      },
+      {
+        "type": "header",
+        "content": "Jours de livraison"
+      },
+      {
+        "type": "checkbox",
+        "id": "ship_on_saturday",
+        "label": "Livraison le samedi",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "ship_on_sunday",
+        "label": "Livraison le dimanche",
+        "default": false
       }
     ]
   }

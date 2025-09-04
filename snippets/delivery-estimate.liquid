@@ -1,0 +1,293 @@
+{% doc %}
+  Ce snippet est utilisé pour afficher la date de livraison estimée en fonction du pays du client.
+  Activer les "Markets" dans Shopify pour voir differentes dates de livraison en fonction du pays.
+  Il prend en compte les jours ouvrés, les weekends et le délai de préparation des commandes.
+  
+  Le format d'affichage peut être configuré dans les settings :
+  - "from_date" : Livraison à partir du [date]
+  - "between_dates" : Livraison prévue entre le [date] et [date]
+  - "average_date" : Livraison prévue le [date] (moyenne)
+
+  @example
+  {% render 'delivery-estimate', block: block %}
+{% enddoc %}
+
+{% liquid
+  # Récupérer le pays depuis la localisation Shopify (fonctionne avec Markets activés)
+  assign country_code = localization.country.iso_code | default: 'FR'
+
+  # Liste des pays européens (codes ISO 2)
+  assign european_countries = 'AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE,GB' | split: ','
+
+  # Déterminer si c'est un pays européen
+  assign is_european = false
+  if european_countries contains country_code
+    assign is_european = true
+  endif
+
+  # Récupérer le délai de préparation
+  assign preparation_days = settings.order_preparation_days | default: 1
+
+  # Définir les délais min et max selon la zone
+  if country_code == 'FR'
+    # France
+    assign shipping_min_days = settings.france_min_delivery_days | default: 2
+    assign shipping_max_days = settings.france_max_delivery_days | default: 4
+  elsif is_european
+    # Autres pays européens
+    assign shipping_min_days = settings.europe_min_delivery_days | default: 3
+    assign shipping_max_days = settings.europe_max_delivery_days | default: 6
+  else
+    # International
+    assign shipping_min_days = settings.international_min_delivery_days | default: 5
+    assign shipping_max_days = settings.international_max_delivery_days | default: 10
+  endif
+
+  # Ajouter le délai de préparation aux délais de livraison
+  assign min_days = shipping_min_days | plus: preparation_days
+  assign max_days = shipping_max_days | plus: preparation_days
+
+  # Format d'affichage choisi dans les settings
+  assign display_format = settings.delivery_display_format | default: 'from_date'
+
+  # Fonction pour calculer une date de livraison
+  assign current_day = 'now' | date: '%s'
+
+  # Calculer la date minimum
+  assign remaining_days_min = min_days
+  assign double_interval = max_days | times: 2 | plus: 14
+
+  for i in (1..double_interval)
+    assign interval_seconds = i | times: 86400
+    assign next_day = current_day | date: '%s' | plus: interval_seconds | date: '%a'
+    assign is_working_day = false
+
+    # Vérifier si c'est un jour ouvré
+    if next_day != 'Sat' and next_day != 'Sun'
+      assign is_working_day = true
+    elsif next_day == 'Sat' and settings.ship_on_saturday == true
+      assign is_working_day = true
+    elsif next_day == 'Sun' and settings.ship_on_sunday == true
+      assign is_working_day = true
+    endif
+
+    if is_working_day
+      assign remaining_days_min = remaining_days_min | minus: 1
+    endif
+
+    if remaining_days_min == 0
+      assign min_delivery_timestamp = current_day | date: '%s' | plus: interval_seconds
+      assign min_delivery_day = min_delivery_timestamp | date: '%e' | strip
+      assign min_delivery_month_num = min_delivery_timestamp | date: '%m'
+      break
+    endif
+  endfor
+
+  # Calculer la date maximum
+  assign remaining_days_max = max_days
+
+  for i in (1..double_interval)
+    assign interval_seconds = i | times: 86400
+    assign next_day = current_day | date: '%s' | plus: interval_seconds | date: '%a'
+    assign is_working_day = false
+
+    # Vérifier si c'est un jour ouvré
+    if next_day != 'Sat' and next_day != 'Sun'
+      assign is_working_day = true
+    elsif next_day == 'Sat' and settings.ship_on_saturday == true
+      assign is_working_day = true
+    elsif next_day == 'Sun' and settings.ship_on_sunday == true
+      assign is_working_day = true
+    endif
+
+    if is_working_day
+      assign remaining_days_max = remaining_days_max | minus: 1
+    endif
+
+    if remaining_days_max == 0
+      assign max_delivery_timestamp = current_day | date: '%s' | plus: interval_seconds
+      assign max_delivery_day = max_delivery_timestamp | date: '%e' | strip
+      assign max_delivery_month_num = max_delivery_timestamp | date: '%m'
+      break
+    endif
+  endfor
+
+  # Calculer la date moyenne si nécessaire
+  if display_format == 'average_date'
+    assign avg_days = min_days | plus: max_days | divided_by: 2.0 | round
+    assign remaining_days_avg = avg_days
+
+    for i in (1..double_interval)
+      assign interval_seconds = i | times: 86400
+      assign next_day = current_day | date: '%s' | plus: interval_seconds | date: '%a'
+      assign is_working_day = false
+
+      # Vérifier si c'est un jour ouvré
+      if next_day != 'Sat' and next_day != 'Sun'
+        assign is_working_day = true
+      elsif next_day == 'Sat' and settings.ship_on_saturday == true
+        assign is_working_day = true
+      elsif next_day == 'Sun' and settings.ship_on_sunday == true
+        assign is_working_day = true
+      endif
+
+      if is_working_day
+        assign remaining_days_avg = remaining_days_avg | minus: 1
+      endif
+
+      if remaining_days_avg == 0
+        assign avg_delivery_timestamp = current_day | date: '%s' | plus: interval_seconds
+        assign avg_delivery_day = avg_delivery_timestamp | date: '%e' | strip
+        assign avg_delivery_month_num = avg_delivery_timestamp | date: '%m'
+        break
+      endif
+    endfor
+  endif
+
+  # Fonction pour mapper les mois en français
+  case min_delivery_month_num
+    when '01'
+      assign min_delivery_month = 'janv.'
+    when '02'
+      assign min_delivery_month = 'févr.'
+    when '03'
+      assign min_delivery_month = 'mars'
+    when '04'
+      assign min_delivery_month = 'avril'
+    when '05'
+      assign min_delivery_month = 'mai'
+    when '06'
+      assign min_delivery_month = 'juin'
+    when '07'
+      assign min_delivery_month = 'juil.'
+    when '08'
+      assign min_delivery_month = 'août'
+    when '09'
+      assign min_delivery_month = 'sept.'
+    when '10'
+      assign min_delivery_month = 'oct.'
+    when '11'
+      assign min_delivery_month = 'nov.'
+    when '12'
+      assign min_delivery_month = 'déc.'
+  endcase
+
+  case max_delivery_month_num
+    when '01'
+      assign max_delivery_month = 'janv.'
+    when '02'
+      assign max_delivery_month = 'févr.'
+    when '03'
+      assign max_delivery_month = 'mars'
+    when '04'
+      assign max_delivery_month = 'avril'
+    when '05'
+      assign max_delivery_month = 'mai'
+    when '06'
+      assign max_delivery_month = 'juin'
+    when '07'
+      assign max_delivery_month = 'juil.'
+    when '08'
+      assign max_delivery_month = 'août'
+    when '09'
+      assign max_delivery_month = 'sept.'
+    when '10'
+      assign max_delivery_month = 'oct.'
+    when '11'
+      assign max_delivery_month = 'nov.'
+    when '12'
+      assign max_delivery_month = 'déc.'
+  endcase
+
+  if display_format == 'average_date'
+    case avg_delivery_month_num
+      when '01'
+        assign avg_delivery_month = 'janv.'
+      when '02'
+        assign avg_delivery_month = 'févr.'
+      when '03'
+        assign avg_delivery_month = 'mars'
+      when '04'
+        assign avg_delivery_month = 'avril'
+      when '05'
+        assign avg_delivery_month = 'mai'
+      when '06'
+        assign avg_delivery_month = 'juin'
+      when '07'
+        assign avg_delivery_month = 'juil.'
+      when '08'
+        assign avg_delivery_month = 'août'
+      when '09'
+        assign avg_delivery_month = 'sept.'
+      when '10'
+        assign avg_delivery_month = 'oct.'
+      when '11'
+        assign avg_delivery_month = 'nov.'
+      when '12'
+        assign avg_delivery_month = 'déc.'
+    endcase
+  endif
+
+  # Formater les dates finales
+  assign min_delivery_date = min_delivery_day | append: ' ' | append: min_delivery_month
+  assign max_delivery_date = max_delivery_day | append: ' ' | append: max_delivery_month
+  if display_format == 'average_date'
+    assign avg_delivery_date = avg_delivery_day | append: ' ' | append: avg_delivery_month
+  endif
+%}
+
+<div class="shipping-estimate">
+  <div class="shipping-estimate__title">Estimation de livraison</div>
+  <div class="shipping-estimate__text-container">
+    {% case display_format %}
+      {% when 'from_date' %}
+        Livraison à partir du&nbsp;
+        <span class="shipping-estimate__text-date">
+          {{ min_delivery_date }}
+        </span>
+      {% when 'between_dates' %}
+        Livraison prévue entre le&nbsp;
+        <span class="shipping-estimate__text-date">
+          {{ min_delivery_date }}
+        </span>
+        &nbsp;et le&nbsp;
+        <span class="shipping-estimate__text-date">
+          {{ max_delivery_date }}
+        </span>
+      {% when 'average_date' %}
+        Livraison prévue le&nbsp;
+        <span class="shipping-estimate__text-date">
+          {{ avg_delivery_date }}
+        </span>
+      {% else %}
+        Livraison à partir du&nbsp;
+        <span class="shipping-estimate__text-date">
+          {{ min_delivery_date }}
+        </span>
+    {% endcase %}
+  </div>
+</div>
+
+{% stylesheet %}
+  .shipping-estimate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .shipping-estimate__title {
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .shipping-estimate__text-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .shipping-estimate__text-date {
+    font-weight: 600;
+  }
+{% endstylesheet %}
