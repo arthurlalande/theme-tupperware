@@ -115,34 +115,19 @@
             "show_gift_card_recipient": true
           }
         },
-        "payment_info": {
-          "type": "payment_info",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "heading": "",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h5",
-            "description": "",
-            "show_payment_icons": true,
-            "show_below_product_media": false
-          }
-        },
         "form_reassurance_R9wXUV": {
           "type": "form_reassurance",
           "settings": {
             "background_color": "#f3f9fd",
-            "image-1": "shopify://shop_images/placeholder.svg",
-            "heading-1": "Lorem ipsum dolor sit amet",
-            "text-1": "Lorem ipsum dolor",
-            "image-2": "shopify://shop_images/placeholder.svg",
-            "heading-2": "Lorem ipsum dolor sit amet",
-            "text-2": "Lorem ipsum dolor",
-            "image-3": "shopify://shop_images/placeholder.svg",
-            "heading-3": "Lorem ipsum dolor sit amet",
-            "text-3": "Lorem ipsum dolor"
+            "image-1": "shopify://shop_images/camion.svg",
+            "heading-1": "Livraison livrée sous 4 jours",
+            "text-1": "dès 99€ d'achat*",
+            "image-2": "shopify://shop_images/carte.svg",
+            "heading-2": "Paiement 100% sécurisé",
+            "text-2": "CB, Paypal...",
+            "image-3": "shopify://shop_images/t-tupp.svg",
+            "heading-3": "Garantie 10 ans",
+            "text-3": "par Tupperware"
           }
         },
         "sticky_atc_bar_p84knK": {
@@ -308,7 +293,6 @@
         "variant_picker",
         "text_pMniWm",
         "buy_buttons",
-        "payment_info",
         "form_reassurance_R9wXUV",
         "sticky_atc_bar_p84knK",
         "collapsible_tab_DYt7En",
