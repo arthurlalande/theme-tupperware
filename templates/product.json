@@ -99,13 +99,9 @@
             "size_chart_from_page": ""
           }
         },
-        "text_pMniWm": {
-          "type": "text",
-          "settings": {
-            "text": "Livraison estimée le 01/09",
-            "text_style": "body",
-            "text_color": "#838383"
-          }
+        "delivery_estimate_GQxHjP": {
+          "type": "delivery_estimate",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -291,7 +287,7 @@
         "icon_with_text_NNjYqK",
         "price",
         "variant_picker",
-        "text_pMniWm",
+        "delivery_estimate_GQxHjP",
         "buy_buttons",
         "form_reassurance_R9wXUV",
         "sticky_atc_bar_p84knK",

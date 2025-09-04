@@ -84,6 +84,7 @@
     "most_searched_keyworkds": "Stockage, Congélation, Préparation, À emporter",
     "products_recommendations": [],
     "currency_code_enabled": false,
+    "delivery_display_format": "average_date",
     "section_header_alignment": "center",
     "collection_card_style": "style-1",
     "buttons_uppercase": false,
