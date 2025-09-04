@@ -116,7 +116,7 @@
           "settings": {
             "background_color": "#f3f9fd",
             "image-1": "shopify://shop_images/camion.svg",
-            "heading-1": "Livraison livrée sous 4 jours",
+            "heading-1": "Livraison sous 4 jours",
             "text-1": "dès 99€ d'achat*",
             "image-2": "shopify://shop_images/carte.svg",
             "heading-2": "Paiement 100% sécurisé",
@@ -341,11 +341,7 @@
           }
         }
       },
-      "block_order": [
-        "item_AgWWrQ",
-        "item_8dCMNV",
-        "item_GttfJ7"
-      ],
+      "block_order": ["item_AgWWrQ", "item_8dCMNV", "item_GttfJ7"],
       "name": "Quality Reassurance",
       "settings": {
         "background_color": "#e0f1fb",
@@ -382,9 +378,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_BwAgAX"
-      ],
+      "block_order": ["slide_BwAgAX"],
       "custom_css": [],
       "name": "t:sections.slideshow.name",
       "settings": {
@@ -420,10 +414,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_akm4Dj",
-        "text_GxE3iX"
-      ],
+      "block_order": ["heading_akm4Dj", "text_GxE3iX"],
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
@@ -462,10 +453,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_iEAYXq",
-        "text_AThF3T"
-      ],
+      "block_order": ["heading_iEAYXq", "text_AThF3T"],
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
@@ -504,10 +492,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_zdnBj6",
-        "text_xRFmLn"
-      ],
+      "block_order": ["heading_zdnBj6", "text_xRFmLn"],
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
@@ -646,11 +631,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_RbyjHF",
-        "text_EXmW8Y",
-        "button_VJzkwg"
-      ],
+      "block_order": ["heading_RbyjHF", "text_EXmW8Y", "button_VJzkwg"],
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
@@ -696,9 +677,7 @@
           }
         }
       },
-      "block_order": [
-        "collection_haMt6E"
-      ],
+      "block_order": ["collection_haMt6E"],
       "settings": {
         "container": "fixed",
         "color_scheme": "",
@@ -1084,9 +1063,7 @@
           }
         }
       },
-      "block_order": [
-        "judge_me_reviews_review_widget_XYmbVC"
-      ],
+      "block_order": ["judge_me_reviews_review_widget_XYmbVC"],
       "disabled": true,
       "settings": {
         "include_margins": true,
