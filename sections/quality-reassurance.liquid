@@ -75,6 +75,15 @@
             min-width: 160px;
         }
     }
+    /* Supress containerpadding right on mobile */
+    @media (width < 532px) {
+        .reassurance-quality__container {
+          padding-right: 0;
+        }
+        .reassurance-quality__content:last-child {
+          padding-right: 16px;
+        }
+    } 
 {% endstylesheet %}
 
 {% schema %}
