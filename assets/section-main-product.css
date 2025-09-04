@@ -12,6 +12,11 @@
   --product-gap: 3rem;
   gap: var(--product-gap);
 }
+@media (width >768px) and (width <= 1000px) {
+  .product {
+    --media-width: 50%;
+  }
+}
 .product--medium {
   --media-width: 50%;
 }
