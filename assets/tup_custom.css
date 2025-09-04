@@ -30,6 +30,9 @@
 .product__block.product__block--form_reassurance {
   margin: 0;
 }
+.product__block.product__block--delivery_estimate {
+  margin-bottom: 10px;
+}
 
 /* Icon with text */
 .icon-with-text__item .inline-richtext {

@@ -237,7 +237,7 @@
 %}
 
 <div class="shipping-estimate">
-  <div class="shipping-estimate__title">Estimation de livraison</div>
+    <span class="shipping-estimate__icon"></span>
   <div class="shipping-estimate__text-container">
     {% case display_format %}
       {% when 'from_date' %}
@@ -271,23 +271,22 @@
 {% stylesheet %}
   .shipping-estimate {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
   }
-  .shipping-estimate__title {
-    font-family: 'Gotham', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    margin-bottom: 4px;
+  .shipping-estimate__icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #66BF74;
   }
   .shipping-estimate__text-container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-  }
-  .shipping-estimate__text-date {
-    font-weight: 600;
+    font-weight: 400;
   }
 {% endstylesheet %}
