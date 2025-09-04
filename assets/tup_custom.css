@@ -63,3 +63,22 @@
 .product_payment-icons ul.list {
   gap: 4px;
 }
+
+/* Media gallery */
+@media (width >= 768px) {
+  media-gallery .product__media-list.swiper-wrapper {
+    padding: 0 2px; /* Allow box shadow to show */
+  }
+}
+.product--media-has-many.product--grid-mix .product__media-item:first-child {
+  padding: 0px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: var(--blocks-radius);
+  margin-bottom: 16px;
+}
+
+/* Add grid-first-featured */
+.product--media-has-many.product--grid-first-featured
+  .product__media-item:first-child {
+  width: 100%;
+}
