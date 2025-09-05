@@ -149,7 +149,7 @@
     {%- endcase -%}
     
     {%- comment -%} Badge sur la première image {%- endcomment -%}
-    {%- if position == 0 and show_product_badge -%}
+    {%- if position == 0 and show_product_badge and product.metafields.custom.badge.value != blank -%}
       <div class="product__media-badge">
         {{ product.metafields.custom.badge.value }}
       </div>
