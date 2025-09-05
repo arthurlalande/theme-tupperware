@@ -209,84 +209,6 @@
             "image_ratio": "1/1",
             "enable_quick_add": true
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Benefits",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "",
-            "page": "",
-            "default_open": true,
-            "show_below_product_media": true
-          }
-        },
-        "collapsible_tab_LJEHcH": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Use and care",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false,
-            "show_below_product_media": true
-          }
-        },
-        "collapsible_tab_piweU8": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Specs",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false,
-            "show_below_product_media": true
-          }
-        },
-        "collapsible_tab_hC7dbQ": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Tips",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false,
-            "show_below_product_media": true
-          }
-        },
-        "collapsible_tab_xxzepQ": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Quality Product Warranty",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false,
-            "show_below_product_media": true
-          }
-        },
-        "collapsible_tab_qbNM8G": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Disclosures",
-            "heading_size": "h4",
-            "icon": "none",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "page": "",
-            "default_open": false,
-            "show_below_product_media": true
-          }
         }
       },
       "block_order": [
@@ -308,13 +230,7 @@
         "collapsible_tab_7fpJ3q",
         "collapsible_tab_QBU397",
         "collapsible_tab_itJKXD",
-        "complementary",
-        "collapsible-row-1",
-        "collapsible_tab_LJEHcH",
-        "collapsible_tab_piweU8",
-        "collapsible_tab_hC7dbQ",
-        "collapsible_tab_xxzepQ",
-        "collapsible_tab_qbNM8G"
+        "complementary"
       ],
       "custom_css": [],
       "settings": {
