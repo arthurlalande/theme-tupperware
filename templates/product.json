@@ -25,8 +25,8 @@
           "settings": {
             "label_background_color": "#e0f1fb",
             "label_text_color": "#00524f",
-            "label_main_category": "{{ product.metafields.custom.main_category | metafield_text }}",
-            "label_sub_category": "{{ product.metafields.custom.subcategory | metafield_text }}"
+            "label_main_category": "Possible de modifier",
+            "label_sub_category": "Sub category"
           }
         },
         "title": {
@@ -375,12 +375,12 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-inverse",
-            "background": "shopify://shop_images/Banner_Tupperware_-_Product_page.jpg",
+            "background": "{{ product.metafields.custom.image_banner.value }}",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
             "subheading": "",
-            "title": "<strong>{{ product.metafields.custom.banner_title.value }}</strong><strong>Banner TITLE</strong>",
+            "title": "<strong>{{ product.metafields.custom.banner_title.value }}</strong>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -418,7 +418,7 @@
         "heading_akm4Dj": {
           "type": "heading",
           "settings": {
-            "heading": "Pratique au <strong>quotidien</strong>",
+            "heading": "",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -429,7 +429,7 @@
         "text_GxE3iX": {
           "type": "text",
           "settings": {
-            "text": "<p>Paragraph - Media with text 1 </p>",
+            "text": "{{ product.metafields.custom.paragraph_media_with_text_1 | metafield_tag }}",
             "subtext_color": true
           }
         }
@@ -442,7 +442,7 @@
       "settings": {
         "container": "fixed",
         "color_scheme": "",
-        "image": "shopify://shop_images/placeholder.svg",
+        "image": "{{ product.metafields.custom.media_1.value }}",
         "image_position": "left",
         "image_width": 50,
         "desktop_content_position": "center",
@@ -460,7 +460,7 @@
         "heading_iEAYXq": {
           "type": "heading",
           "settings": {
-            "heading": "Pratique au <strong>quotidien</strong>",
+            "heading": "",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -471,7 +471,7 @@
         "text_AThF3T": {
           "type": "text",
           "settings": {
-            "text": "<p>Paragraph - Media with text 1 </p>",
+            "text": "{{ product.metafields.custom.paragraph_media_with_text_2 | metafield_tag }}",
             "subtext_color": true
           }
         }
@@ -484,50 +484,8 @@
       "settings": {
         "container": "fixed",
         "color_scheme": "",
-        "image": "shopify://shop_images/placeholder.svg",
+        "image": "{{ product.metafields.custom.media_2.value }}",
         "image_position": "right",
-        "image_width": 50,
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "inherit",
-        "show_section_divider": false,
-        "divider_width": "fixed",
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
-    "image_with_text_9kpDPc": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_zdnBj6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pratique au <strong>quotidien</strong>",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_xRFmLn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Paragraph - Media with text 1 </p>",
-            "subtext_color": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_zdnBj6",
-        "text_xRFmLn"
-      ],
-      "name": "t:sections.image-with-text.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "image": "shopify://shop_images/placeholder.svg",
-        "image_position": "left",
         "image_width": 50,
         "desktop_content_position": "center",
         "desktop_content_alignment": "left",
@@ -545,8 +503,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "FAQ - Question 1",
-            "content": "<p>FAQ - Answer 1</p>",
+            "heading": "{{ product.metafields.custom.faq_question_1.value }}",
+            "content": "{{ product.metafields.custom.faq_answer_1 | metafield_tag }}",
             "custom_liquid": "",
             "page": "",
             "open": false,
@@ -557,8 +515,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "FAQ - Question 2",
-            "content": "<p>FAQ - Answer 2</p>",
+            "heading": "{{ product.metafields.custom.faq_question_2.value }}",
+            "content": "{{ product.metafields.custom.faq_answer_2 | metafield_tag }}",
             "custom_liquid": "",
             "page": "",
             "open": false,
@@ -569,8 +527,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "FAQ - Question 3",
-            "content": "<p>FAQ - Answer 3</p>",
+            "heading": "{{ product.metafields.custom.faq_question_3.value }}",
+            "content": "{{ product.metafields.custom.faq_answer_3 | metafield_tag }}",
             "custom_liquid": "",
             "page": "",
             "open": false,
@@ -581,8 +539,8 @@
           "type": "collapsible_item",
           "settings": {
             "icon": "none",
-            "heading": "FAQ - Question 4",
-            "content": "<p>FAQ - Answer 4</p>",
+            "heading": "{{ product.metafields.custom.faq_question_4.value }}",
+            "content": "{{ product.metafields.custom.faq_answer_4 | metafield_tag }}",
             "custom_liquid": "",
             "page": "",
             "open": false,
@@ -654,7 +612,7 @@
           "type": "button",
           "settings": {
             "button_label": "Découvrez nos nouveautés ✨",
-            "button_link": "",
+            "button_link": "shopify://collections/weekly-offer",
             "button_style": "btn--primary",
             "button_icon": "none"
           }
@@ -1124,7 +1082,6 @@
     "slideshow_JkYeAd",
     "image_with_text_AfJxyk",
     "image_with_text_yfXttm",
-    "image_with_text_9kpDPc",
     "collapsible_tabs_EhYdFH",
     "image_with_text_ymgLmz",
     "featured_collection_xme94L",
