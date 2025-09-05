@@ -25,8 +25,8 @@
           "settings": {
             "label_background_color": "#e0f1fb",
             "label_text_color": "#00524f",
-            "label_main_category": "Main category",
-            "label_sub_category": "Sub category"
+            "label_main_category": "{{ product.metafields.custom.main_category | metafield_text }}",
+            "label_sub_category": "{{ product.metafields.custom.subcategory | metafield_text }}"
           }
         },
         "title": {
@@ -154,7 +154,19 @@
             "heading": "Caractéristiques / Spécifications",
             "heading_size": "h5",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.features.value }}</p>",
+            "content": "{{ product.metafields.custom.caracteristics | metafield_tag }}",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": false
+          }
+        },
+        "collapsible_tab_7fpJ3q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions & Capacity",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.dimensionscapacity | metafield_tag }}",
             "page": "",
             "default_open": false,
             "show_below_product_media": false
@@ -166,7 +178,7 @@
             "heading": "Garantie & Entretien",
             "heading_size": "h5",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.warranty_maintenance.value }}</p>",
+            "content": "{{ product.metafields.custom.warrantymaintenance | metafield_tag }}",
             "page": "",
             "default_open": false,
             "show_below_product_media": false
@@ -178,7 +190,7 @@
             "heading": "Conseils d'utilisation / Tips",
             "heading_size": "h5",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.tips_for_use.value }}</p>",
+            "content": "{{ product.metafields.custom.tips_for_use | metafield_tag }}",
             "page": "",
             "default_open": false,
             "show_below_product_media": false
@@ -293,6 +305,7 @@
         "sticky_atc_bar_p84knK",
         "collapsible_tab_DYt7En",
         "collapsible_tab_8B6AwL",
+        "collapsible_tab_7fpJ3q",
         "collapsible_tab_QBU397",
         "collapsible_tab_itJKXD",
         "complementary",
@@ -324,21 +337,21 @@
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_1.value }}",
-            "text": "Texte qualité 1{{ product.metafields.custom.text_icone_1.value }}"
+            "text": "{{ product.metafields.custom.text_icone_1.value }}"
           }
         },
         "item_8dCMNV": {
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_2.value }}",
-            "text": "Texte qualité 2{{ product.metafields.custom.text_icone_2.value }}"
+            "text": "{{ product.metafields.custom.text_icone_2.value }}"
           }
         },
         "item_GttfJ7": {
           "type": "item",
           "settings": {
             "icon": "{{ product.metafields.custom.icone_3.value }}",
-            "text": "Texte qualité 3{{ product.metafields.custom.text_icone_3.value }}"
+            "text": "{{ product.metafields.custom.text_icone_3.value }}"
           }
         }
       },
